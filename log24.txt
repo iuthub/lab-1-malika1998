@@ -1,0 +1,5 @@
+== Info:   Trying 93.184.216.34...
+== Info: TCP_NODELAY set
+== Info: Connected to example.com (93.184.216.34) port 443 (#0)
+== Info: OpenSSL was built without SSLv3 support
+== Info: Closing connection 0

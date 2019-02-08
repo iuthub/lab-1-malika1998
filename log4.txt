@@ -1,0 +1,1496 @@
+== Info:   Trying 195.158.19.237...
+== Info: TCP_NODELAY set
+== Info: Connected to inha.uz (195.158.19.237) port 443 (#0)
+== Info: ALPN, offering h2
+== Info: ALPN, offering http/1.1
+== Info: successfully set certificate verify locations:
+== Info:   CAfile: C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+  CApath: none
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.3 (OUT), TLS handshake, Client hello (1):
+=> Send SSL data, 512 bytes (0x200)
+0000: .........:Wo..sg....BT|y.ps.X+J.D.7.a. !g"9..4`....I...hD.2"...,
+0040: ..5'..F.>.......,.0.........+./...$.(.k.#.'.g.....9.....3.....=.
+0080: <.5./.....u.........inha.uz........................3t.........h2
+00c0: .http/1.1.........1.....0.......................................
+0100: ..........+............-.....3.&.$... .).......wP.`.............
+0140: .vu..I..........................................................
+0180: ................................................................
+01c0: ................................................................
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....j
+== Info: TLSv1.3 (IN), TLS handshake, Server hello (2):
+<= Recv SSL data, 106 bytes (0x6a)
+0000: ...f..\]Du.8W78.....aI.jyC.......'..V. .C......p+.P......%e.z...
+0040: 7A9.....0....................3t...http/1.1
+== Info: NPN, negotiated HTTP1.1
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....U
+== Info: TLSv1.2 (IN), TLS handshake, Certificate (11):
+<= Recv SSL data, 4949 bytes (0x1355)
+0000: ...Q..N...0...0............e.Y....oC.....0...*.H........0..1.0..
+0040: .U....GB1.0...U....Greater Manchester1.0...U....Salford1.0...U..
+0080: ..COMODO CA Limited1806..U.../COMODO RSA Extended Validation Sec
+00c0: ure Server CA0...180223000000Z..200223235959Z0..?1.0...U....0089
+0100: 16-041.0...+.....7<.....UZ1.0...+.....7<.....Tashkent1.0...+....
+0140: .7<.....Tashkent1.0...U....Private Organization1.0...U....UZ1.0.
+0180: ..U....1000411.0...U....Tashkent1.0...U....Tashkent1.0...U....Zi
+01c0: yoliar st., 91'0%..U....INHA University in Tashkent SE1.0...U...
+0200: .SSL1.0...U....POSITIVE EV SSL1.0...U....inha.uz0.."0...*.H.....
+0240: ........0...........>......vnP.....W..L.*...U.....wA....j.2=.s.V
+0280: ......C..a..HN.~.R*.EQ..b..`.V.(..3.N.7..r..K=LF=..8.k".p....".,
+02c0: ..........-...#.:&q..(cS....\w... p.x-.....w.............?}.T..:
+0300: <M<..>.K........;.l.g........VZ..#...|..'.e7.......;...H.\...v.
+0340: 3...q.`..................W0..S0...U.#..0...9...(...t........~.i0
+0380: ...U.......[.@].;.Hb.....!...P0...U...........0...U.......0.0...
+03c0: U.%..0...+.........+.......0O..U. .H0F0;..+.....1.....0+0)..+...
+0400: ......https://secure.comodo.com/CPS0...g....0V..U...O0M0K.I.G.Eh
+0440: ttp://crl.comodoca.com/COMODORSAExtendedValidationSecureServerCA
+0480: .crl0....+........{0y0Q..+.....0..Ehttp://crt.comodoca.com/COMOD
+04c0: ORSAExtendedValidationSecureServerCA.crt0$..+.....0...http://ocs
+0500: p.comodoca.com0...U....0...inha.uz..www.inha.uz0..~..+.....y....
+0540: ..n...j.h.v.......X......gp.<5.......w.........a.=.......G0E. ?.
+0580: .Sb.....c..._+g...J`.......r.?.!......A..;.3.b.#$.......'.*<.T.
+05c0: 9.v.V.../.......D.>.Fv....\....U.......a.=.z.....G0E. ..... ...w
+0600: .w.f..v..C..|.9.o....#.!......O*.@..dH.{}..cR-......w-.-.v..K..
+0640: u.`..Bi....f..~_.r....{.z......a.=.......G0E. 7..bQ.e..A.I%.K..r
+0680: soFx.........7.!...3..Gg<...^gh).....O..Cu^.6.d..0...*.H........
+06c0: .....ds%.I.t.].....6.Z_O-M./4./......$x..G.K..1t...k...q.&....t.
+0700: i..9-..[Yrz4Hr_..P.g1.....f.&..Z...u%u.0j...Lp...R..e.`.,'7..S..
+0740: .3...[.]...r]R.....H?..< +K.&..5..y ..........c..V.....L.].....^
+0780: +..8p...."...g..s.6...........KvJ.#...q....{....i|..bl...z].\..
+07c0: OYl"....0...0............C.....5....j..0...*.H........0..1.0...U
+0800: ....GB1.0...U....Greater Manchester1.0...U....Salford1.0...U....
+0840: COMODO CA Limited1+0)..U..."COMODO RSA Certification Authority0.
+0880: ..120212000000Z..270211235959Z0..1.0...U....GB1.0...U....Greater
+08c0:  Manchester1.0...U....Salford1.0...U....COMODO CA Limited1806..U
+0900: .../COMODO RSA Extended Validation Secure Server CA0.."0...*.H..
+0940: ...........0.........V.T....I{.[\.....+bL+..(.......)....8@...n.
+0980: .....w,.u>{c.a.nO;..Ik...../u.(/.Vg............V[..j:?.....`...
+09c0: ..f0_.....j........9.|...*.{...v.m.r90..WU..X..|m..I....<..Jv.!\
+0a00: .s@#.t..X.....6........b...E.Q....#u.......$...'..z.:ac`..-]...;
+0a40: ...:Gsv..,......0...........i0..e0...U.#..0.....~.=...<....8...2
+0a80: 2.0...U......9...(...t........~.i0...U...........0...U.......0..
+0ac0: .....0>..U. .70503..U. .0+0)..+.........https://secure.comodo.co
+0b00: m/CPS0L..U...E0C0A.?.=.;http://crl.comodoca.com/COMODORSACertifi
+0b40: cationAuthority.crl0q..+........e0c0;..+.....0../http://crt.como
+0b80: doca.com/COMODORSAAddTrustCA.crt0$..+.....0...http://ocsp.comodo
+0bc0: ca.com0...*.H.............DB.AQ+H.]..y^..JR.{A,..<.r...X..%...Xe
+0c00: g...W...^..K...-.."...y..+...=$..]_..G..f%>.G..".P"...JY........
+0c40: ..V...S..v..[iKw..O.....P.<.D..W..(S.S....z@.0?.l......".."q.*.V
+0c80: |........RL.d+.i*..Pn>...z ...e...I.2=.(~I..J.......\.ab...`y%..
+0cc0: es.8..&:...}.1".t...\.A.(.G1.}IE....E...........~~.5P4... ......
+0d00: .d../Y.^.6a.$..33...l.ah...V...^b...t.L/1.....K...T..;.\.......
+0d40: .`.!1..d..IX.mZ...m....X...-X.t.j..a....i.:.1Y...|'#.....*....N
+0d80: .a.Rsm....*f.vM1.V..S.......:...H..J.v./.....m4$..)...+....s....
+0dc0: .:GV.q.'..%......t..7.......x0..t0..\.......'f.V.I....p...."0...
+0e00: *.H........0o1.0...U....SE1.0...U....AddTrust AB1&0$..U....AddTr
+0e40: ust External TTP Network1"0 ..U....AddTrust External CA Root0...
+0e80: 000530104838Z..200530104838Z0..1.0...U....GB1.0...U....Greater M
+0ec0: anchester1.0...U....Salford1.0...U....COMODO CA Limited1+0)..U..
+0f00: ."COMODO RSA Certification Authority0.."0...*.H.............0...
+0f40: .......T...V...$...Dgt.+7.}#p.q.S...*..K.V..pr.a.K...=...a....
+0f80: ...>..>\...4z..k......zv.q.......l......~..../O...gCr......k,.
+0fc0: ......~..n.....$.Ckb.U....l........li..xH0E....<E`.2.Q'.g....k.F
+1000: .. ...e.H...N...F7.....HCgNr*.\.L.(.\"{......Q...FNm>.....|3WA<.
+1040: Q...\.,c..W.?..]...E...Z$...V=.o..IX........7.....:..CB.........
+1080: ..`..(V......q....=...H.<...."L....V;....[..."R...i..Le...-pt...
+10c0: g.)iR....PjUF...(ap....,!.G.(..Ev...'.....P.k.L.q0........@...B
+1100: ..3:.\.A..c..qk+....1\:jG..yY. ...j..r.WJ.K.....LA...=^(.....Q.
+1140: .G..S........0..0...U.#..0......z4.&...&T....$.T.0...U........~.
+1180: =...<....8...22.0...U...........0...U.......0....0...U. ..0.0...
+11c0: U. .0D..U...=0;09.7.5.3http://crl.usertrust.com/AddTrustExternal
+1200: CARoot.crl05..+........)0'0%..+.....0...http://ocsp.usertrust.co
+1240: m0...*.H.............d..._......)W..Z...>.v.n.Rp..<.M.tj...%...*
+1280: ]L....m.T.u..'.].y7@.w.....;.....4.~+.y..WE..(....P.....Wi}..R.s
+12c0: ......nf.....-...Y.L...qL|G.;.....l.>\.........HM.....s...{#...
+1300: .MU.zaE..h.^@k#.yz...k..oF.{.=K....YZ.A$....`XG..nF...._......@.
+1340: ..9.............;o.8o
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....M
+== Info: TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+<= Recv SSL data, 333 bytes (0x14d)
+0000: ...I...A....v*.j).k....e_.@r.U.5.......?.p..+........"J....f.H*.
+0040: ......E.B.....z........&zP.K.HyZ^..a..f.!......p.S`.jg..k..:()2.
+0080: X.....n.."r. ...".......V.c..wab.Y./..:.jZ...l.........&..q...,J
+00c0: ..."....t....<...V..#...e....^f...f..`x......)...)..=.W..6<.N.5.
+0100: .sT..d$....O.%..=<.M)V.#`.a...k.Kd..<V..D...p.s..b......k....mb
+0140: 0N...E.L.c.8.
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.2 (IN), TLS handshake, Server finished (14):
+<= Recv SSL data, 4 bytes (0x4)
+0000: ....
+=> Send SSL data, 5 bytes (0x5)
+0000: ....F
+== Info: TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+=> Send SSL data, 70 bytes (0x46)
+0000: ...BA. z.#8:AM..../.R...+qJv..z4.......1Ib.A.....J-R....pD.p..A.
+0040: ...5 D
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+=> Send SSL data, 5 bytes (0x5)
+0000: ....<
+== Info: TLSv1.2 (OUT), TLS handshake, Next protocol (67):
+=> Send SSL data, 36 bytes (0x24)
+0000: C.. .http/1.1.......................
+=> Send SSL data, 5 bytes (0x5)
+0000: ....(
+== Info: TLSv1.2 (OUT), TLS handshake, Finished (20):
+=> Send SSL data, 16 bytes (0x10)
+0000: .....G.R P!^..j7
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....(
+== Info: TLSv1.2 (IN), TLS handshake, Finished (20):
+<= Recv SSL data, 16 bytes (0x10)
+0000: ....<....H..sG.Z
+== Info: SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+== Info: ALPN, server did not agree to a protocol
+== Info: Server certificate:
+== Info:  subject: serialNumber=008916-04; jurisdictionC=UZ; jurisdictionST=Tashkent; jurisdictionL=Tashkent; businessCategory=Private Organization; C=UZ; postalCode=100041; ST=Tashkent; L=Tashkent; street=Ziyoliar st., 9; O=INHA University in Tashkent SE; OU=SSL; OU=POSITIVE EV SSL; CN=inha.uz
+== Info:  start date: Feb 23 00:00:00 2018 GMT
+== Info:  expire date: Feb 23 23:59:59 2020 GMT
+== Info:  subjectAltName: host "inha.uz" matched cert's "inha.uz"
+== Info:  issuer: C=GB; ST=Greater Manchester; L=Salford; O=COMODO CA Limited; CN=COMODO RSA Extended Validation Secure Server CA
+== Info:  SSL certificate verify ok.
+=> Send SSL data, 5 bytes (0x5)
+0000: ....b
+=> Send header, 74 bytes (0x4a)
+0000: GET /en/ HTTP/1.1
+0013: Host: inha.uz
+0022: User-Agent: curl/7.63.0
+003b: Accept: */*
+0048: 
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....9
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 15 bytes (0xf)
+0000: Server: nginx
+<= Recv header, 37 bytes (0x25)
+0000: Date: Fri, 08 Feb 2019 08:57:26 GMT
+<= Recv header, 40 bytes (0x28)
+0000: Content-Type: text/html; charset=utf-8
+<= Recv header, 28 bytes (0x1c)
+0000: Transfer-Encoding: chunked
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 29 bytes (0x1d)
+0000: X-Frame-Options: SAMEORIGIN
+<= Recv header, 22 bytes (0x16)
+0000: Content-Language: en
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 3915 bytes (0xf4b)
+0000: f44
+0005: <!DOCTYPE html>.<html lang="en">.<head prefix="og: http://ogp.me
+0045: /ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#
+0085: ">.    <title>INHA UNIVERSITY IN TASHKENT</title>.    <meta name
+00c5: ="google-site-verification" content="vC0l7eSQHDCn5XaPt9nzePlxO_h
+0105: zuPZACg8yLXOiShE"/>.    .    .    .    <meta charset="utf-8">.  
+0145:   <meta http-equiv="X-UA-Compatible" content="IE=edge">.    <met
+0185: a name="viewport" content="width=device-width, initial-scale=1">
+01c5: .    <meta name="description".          content="Inha University
+0205:  in Tashkent (IUT) is a branch of Korean Inha University located
+0245:  in Tashkent, Uzbekistan."/>.    <meta name="created" content="8
+0285: th Feb 2019 02:13"/>.    <meta name="author" content="INHA UNIVE
+02c5: RSITY IN TASHKENT">.    <meta name="robots" content="NOARCHIVE,N
+0305: OCACHE"/>..    <meta name="twitter:card" content="summary">.    
+0345: <meta name="twitter:site" content="@Inha_Tashkent">.    <meta na
+0385: me="twitter:title" content="Official HomePage">.    <meta name="
+03c5: twitter:description".          content="Inha University in Tashk
+0405: ent (IUT) is a branch of Korean Inha University located in Tashk
+0445: ent, Uzbekistan.">.    <meta name="twitter:creator" content="@In
+0485: ha_Tashkent">..    <meta name="twitter:image" content="https://i
+04c5: nha.uz/media/uploads/2015/01/30/logo_02.png">..    <meta propert
+0505: y="og:title" content="INHA UNIVERSITY IN TASHKENT"/>.    <meta p
+0545: roperty="og:type" content="website"/>.    <meta property="og:url
+0585: " content="http://www.inha.uz/"/>.    <meta property="og:image" 
+05c5: content="https://inha.uz/media/uploads/2015/01/30/logo_02.png"/>
+0605: .    <meta property="og:description".          content="Inha Uni
+0645: versity in Tashkent (IUT) is a branch of Korean Inha University 
+0685: located in Tashkent, Uzbekistan."/>.    <meta property="og:site_
+06c5: name" content="Official HomePage of Inha University in Tashkent"
+0705: />.    <meta property="fb:admins" content="1733474683585871"/>..
+0745:     <link rel=...author... href=...https://plus.google.com/+Inha
+0785: Uz.../>..    ..<link rel="shortcut icon" href="/static/inha/favi
+07c5: con.ico"/>.<!-- Bootstrap -->.<link href="/static/inha/css/boots
+0805: trap.min.css" rel="stylesheet">.<link href="/static/inha/css/sty
+0845: le5.css" rel="stylesheet">.<!-- End Bootstrap -->..<!-- Custom -
+0885: ->...<!-- Add fancyBox main stylesheet -->.<link rel="stylesheet
+08c5: " type="text/css" href="/static/inha/fancybox/jquery.fancybox.cs
+0905: s" media="screen">.<link rel="stylesheet" type="text/css" href="
+0945: /static/inha/css/slick.css"/>.<link rel="stylesheet" type="text/
+0985: css" href="/static/inha/css/slick-theme.css"/>.<link rel="styles
+09c5: heet" href="/static/inha/rrssb/css/rrssb.css" />.<!-- HTML5 shim
+0a05:  and Respond.js for IE8 support of HTML5 elements and media quer
+0a45: ies -->.<!-- WARNING: Respond.js doesn't work if you view the pa
+0a85: ge via file:// -->.<!--[if lt IE 9]>.          <script src="http
+0ac5: s://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>. 
+0b05:          <script src="https://oss.maxcdn.com/respond/1.4.2/respo
+0b45: nd.min.js"></script>.        <![endif]-->..<script>.    (functio
+0b85: n (i, s, o, g, r, a, m) {.        i['GoogleAnalyticsObject'] = r
+0bc5: ;.        i[r] = i[r] || function () {.            (i[r].q = i[r
+0c05: ].q || []).push(arguments).        }, i[r].l = 1 * new Date();. 
+0c45:        a = s.createElement(o),.                m = s.getElements
+0c85: ByTagName(o)[0];.        a.async = 1;.        a.src = g;.       
+0cc5:  m.parentNode.insertBefore(a, m).    })(window, document, 'scrip
+0d05: t', '//www.google-analytics.com/analytics.js', 'ga');..    ga('c
+0d45: reate', 'UA-61992962-1', 'auto');.    ga('send', 'pageview');..<
+0d85: /script>.</head>..<body>.<div id="wrapper">.    .....<div id="fb
+0dc5: -root"></div>.<script>(function (d, s, id) {.    var js, fjs = d
+0e05: .getElementsByTagName(s)[0];.    if (d.getElementById(id)) retur
+0e45: n;.    js = d.createElement(s);.    js.id = id;.    js.src = "//
+0e85: connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3";.    fjs
+0ec5: .parentNode.insertBefore(js, fjs);.}(document, 'script', 'facebo
+0f05: ok-jssdk'));</script>..<header>.    <div class="container">.    
+0f45:     
+<= Recv SSL data, 5 bytes (0x5)
+0000: .... 
+<= Recv data, 4104 bytes (0x1008)
+0000: 1000
+0006: <ul class="top_menu" >.                .                    ..  
+0046:   .        <li >.            <a href="/uz" >.                .  
+0086:               Uzb.                .                </a>..       
+00c6:      .        </li>.    ...                .                    
+0106: ..    .        <li >.            <a href="/ru" >.               
+0146:  .                Ru.                .                </a>..    
+0186:         .        </li>.    ...                .                 
+01c6:    ..    .        <li >.            <a href="/en/procurementnoti
+0206: ces" >.                .                    <span style="color: 
+0246: rgb(255, 253, 105);">.            .                Procurement n
+0286: otices.                .                </span>.            .   
+02c6:              </a>..            .        </li>.    ...           
+0306:      .                    ..    .        <li >.            <a hr
+0346: ef="/en/examinationsamplequestions" >.                .         
+0386:        Examination sample questions.                .           
+03c6:      </a>..            .        </li>.    ...                .  
+0406:                   ..    .        <li >.            <a href="/en/
+0446: jobs" >.                .                Hot Jobs.              
+0486:   .                </a>..            .        </li>.    ...     
+04c6:            .                    ...                .            
+0506:         ..    .        <li >.            <a href="https://docs.g
+0546: oogle.com/forms/d/1AFArGgOuUFePIRiofDyzFpKOMFIWAthPgaioDUOLEak/v
+0586: iewform?edit_requested=true" >.                .                
+05c6:     <span style="color: rgb(255, 253, 105);">.            .     
+0606:            Apply to IUT Pre-University Course.                . 
+0646:                </span>.            .                </a>..      
+0686:       .        </li>.    ...                .                   
+06c6:  ..    .        <li >.            <a href="/en/reception/" >.   
+0706:              .                Virtual reception.                
+0746: .                </a>..            .        </li>.    ...       
+0786:          ..            </ul>.    </div>.    <div class="containe
+07c6: r">.        <div class="Beta_versh"><a href="/en/contact/"></a><
+0806: /div>.        <div class="logo">.            <a href="/en/">.   
+0846:              <img src="/static/inha/img/logo2.png">.            
+0886: </a>.        </div>.        <div class="rightHeader">..         
+08c6:    <div class="INHA_versh_bott">.                <a class="INHA_
+0906: versh" href="http://eclass.inha.uz/">eClass</a>.                
+0946: <ul class="language" style="display: none">.                    
+0986: <li>.                        <a href="#">.                      
+09c6:       English <span class="caret"></span>.                      
+0a06:   </a>.                    </li>.                </ul>.         
+0a46:        <div class="QuickLinks">.                    ..<div class
+0a86: ="dropdown">.    <button type="button" data-toggle="dropdown" ar
+0ac6: ia-haspopup="true" aria-expanded="false">.        QUICK LINKS.  
+0b06:       <span class="caret"></span>.    </button>.    <ul class="d
+0b46: ropdown-menu" role="menu" aria-labelledby="dLabel">.         .  
+0b86:           ..    .        <li >.            <a href="/en/howtoapp
+0bc6: ly" >.                .                ADMISSIONS.              
+0c06:   .                </a>..            .        </li>.    ...     
+0c46:    .            ..    .        <li >.            <a href="/en/ev
+0c86: ents" >.                .                IUT EVENTS.            
+0cc6:     .                </a>..            .        </li>.    ...   
+0d06:      .            ..    .        <li >.            <a href="/en/
+0d46: undergraduate/" >.                .                DEPARTMENTS. 
+0d86:                .                </a>..            .        </li>
+0dc6: .    ...        .            ..    .        <li >.            <a
+0e06:  href="/en/tuition/" >.                .                TUITION 
+0e46: FEES.                .                </a>..            .       
+0e86:  </li>.    ...        .            ..    .        <li >.        
+0ec6:     <a href="/en/scholarships" >.                .              
+0f06:   SCHOLARSHIP.                .                </a>..           
+0f46:  .        </li>.    ...        .            ..    .        <li >
+0f86: .            <a href="/en/jobs" >.                .             
+0fc6:    JOBS AT IUT.                .                </a>..          
+<= Recv SSL data, 5 bytes (0x5)
+0000: .... 
+<= Recv data, 4104 bytes (0x1008)
+0000: 1000
+0006:   .        </li>.    ...        .            ..    .        <li 
+0046: >.            <a href="/en/contact/" >.                .        
+0086:         CONTACT IUT.                .                </a>..     
+00c6:        .        </li>.    ...        .            ..    .       
+0106:  <li >.            <a href="/en/give2iut" >.                .   
+0146:              MAKE A GIFT.                .                </a>..
+0186:             .        </li>.    ...        .    </ul>.</div>..   
+01c6:              </div>.                <div class="search">.       
+0206:              <form id="search-block-form" action="/en/search/">.
+0246:                         <div class="container-inline">.         
+0286:                    <div class="form-item form-type-textfield for
+02c6: m-item-search-block-form">.                                <inpu
+0306: t type="text" name="search" placeholder="SEARCH">.              
+0346:               </div>.                            <div>.         
+0386:                        <input type="submit" id="edit-submit--2" 
+03c6: name="op" value="search">.                            </div>.   
+0406:                      </div>.                    </form>.        
+0446:         </div>.            </div>.        </div>.    </div>.</he
+0486: ader>...<div id="mainMenu">.    <div class="container">.        
+04c6: <nav class="navbar navbar-default">.            <div class="cont
+0506: ainer-fluid">.                <!-- Brand and toggle get grouped 
+0546: for better mobile display -->.                <div class="navbar
+0586: -header">.                    <button type="button" class="navba
+05c6: r-toggle collapsed" data-toggle="collapse".                     
+0606:        data-target="#bs-example-navbar-collapse-1">.            
+0646:             <span class="sr-only">Toggle navigation</span>.     
+0686:                    <span class="icon-bar"></span>.              
+06c6:           <span class="icon-bar"></span>.                       
+0706:  <span class="icon-bar"></span>.                    </button>.  
+0746:               </div>..                <!-- Collect the nav links
+0786: , forms, and other content for toggling -->.                <div
+07c6:  class="collapse navbar-collapse" id="bs-example-navbar-collapse
+0806: -1">.                    <ul class="nav navbar-nav">.           
+0846:              .                            ..    .        <li  cl
+0886: ass="dropdown" >.            <a href="/en/introductiontoiut"  cl
+08c6: ass="dropdown-toggle" role="button".               aria-expanded
+0906: ="false" >.                .                About.              
+0946:   .                 <span class="caret"></span> </a>..          
+0986:   .                <ul class="dropdown-menu" role="menu">.      
+09c6:               .                        ..    .        <li >.    
+0a06:         <a href="/en/mission" >.                .               
+0a46:  Mission.                .                </a>..            .   
+0a86:      </li>.    ...                    .                        .
+0ac6: .    .        <li  class="dropdown" >.            <a href="/en/r
+0b06: ectorsmessage"  class="dropdown-toggle" role="button".          
+0b46:      aria-expanded="false" >.                .                Re
+0b86: ctor`s Office.                .                 <span class="car
+0bc6: et"></span> </a>..            .                <ul class="dropdo
+0c06: wn-menu" role="menu">.                    .                     
+0c46:    ..    .        <li >.            <a href="/en/rectorsmessage"
+0c86:  >.                .                Rector`s message.           
+0cc6:      .                </a>..            .        </li>.    ...  
+0d06:                   .                </ul>.            .        </
+0d46: li>.    ...                    .                        ...     
+0d86:                .                        ..    .        <li >.   
+0dc6:          <a href="/en/introductiontoiut" >.                .    
+0e06:             Introduction to IUT.                .               
+0e46:  </a>..            .        </li>.    ...                    .  
+0e86:                       ..    .        <li >.            <a href="
+0ec6: /en/iutsymbols" >.                .                IUT Symbols .
+0f06:                 .                </a>..            .        </li
+0f46: >.    ...                    .                        ..    .   
+0f86:      <li  class="dropdown" >.            <a href="/en/buildings"
+0fc6:   class="dropdown-toggle" role="button".               aria-expa
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv data, 1781 bytes (0x6f5)
+0000: 6ee
+0005: nded="false" >.                .                Campus Guide.   
+0045:              .                 <span class="caret"></span> </a>.
+0085: .            .                <ul class="dropdown-menu" role="me
+00c5: nu">.                    .                        ..    .       
+0105:  <li >.            <a href="/en/buildings" >.                .  
+0145:               Buildings.                .                </a>.. 
+0185:            .        </li>.    ...                    .          
+01c5:               ...                    .                </ul>.    
+0205:         .        </li>.    ...                    .             
+0245:            ..    .        <li  class="dropdown" >.            <a
+0285:  href=""  class="dropdown-toggle" role="button".               a
+02c5: ria-expanded="false" >.                .                Visitors
+0305:  Guide .                .                 <span class="caret"></
+0345: span> </a>..            .                <ul class="dropdown-men
+0385: u" role="menu">.                    .                        .. 
+03c5:    .        <li >.            <a href="/en/map" >.              
+0405:   .                Map.                .                </a>..  
+0445:           .        </li>.    ...                    .           
+0485:              ...                    .                        .. 
+04c5:    .        <li >.            <a href="/en/parkingandtransportat
+0505: ion" >.                .                Parking and Transportati
+0545: on.                .                </a>..            .        <
+0585: /li>.    ...                    .                </ul>.         
+05c5:    .        </li>.    ...                    .                  
+0605:       ...                    .                        ..    .   
+0645:      <li >.            <a href="/en/contactiut" >.              
+0685:   .                Contact IUT.                .                
+06c5: </a>..            .        </li>.    ...      
+<= Recv SSL data, 5 bytes (0x5)
+0000: .... 
+<= Recv data, 4104 bytes (0x1008)
+0000: 1000
+0006:               .                </ul>.            .        </li>.
+0046:     ...                        .                            ..  
+0086:   .        <li  class="dropdown" >.            <a href="/en/howt
+00c6: oapply"  class="dropdown-toggle" role="button".               ar
+0106: ia-expanded="false" >.                .                Admission
+0146: s.                .                 <span class="caret"></span> 
+0186: </a>..            .                <ul class="dropdown-menu" rol
+01c6: e="menu">.                    .                        ..    .  
+0206:       <li  class="dropdown" >.            <a href=""  class="dro
+0246: pdown-toggle" role="button".               aria-expanded="false"
+0286:  >.                .                Undergraduate.              
+02c6:   .                 <span class="caret"></span> </a>..          
+0306:   .                <ul class="dropdown-menu" role="menu">.      
+0346:               .                        ..    .        <li >.    
+0386:         <a href="/en/howtoapply" >.                .            
+03c6:     How to apply.                .                </a>..        
+0406:     .        </li>.    ...                    .                 
+0446:        ..    .        <li >.            <a href="/en/tuition" >.
+0486:                 .                Tuition Fees.                . 
+04c6:                </a>..            .        </li>.    ...         
+0506:            .                        ..    .        <li >.       
+0546:      <a href="/en/faq" >.                .                Admiss
+0586: ions FAQ.                .                </a>..            .   
+05c6:      </li>.    ...                    .                        .
+0606: ..                    .                        ..    .        <l
+0646: i >.            <a href="/en/scholarships" >.                .  
+0686:               Scholarships.                .                </a>
+06c6: ..            .        </li>.    ...                    .       
+0706:                  ...                    .                       
+0746:  ...                    .                        ..    .        
+0786: <li >.            <a href="/en/admissionstats" >.               
+07c6:  .                Admission Stats.                .             
+0806:    </a>..            .        </li>.    ...                    .
+0846:                 </ul>.            .        </li>.    ...        
+0886:             .                </ul>.            .        </li>.  
+08c6:   ...                        .                            ..    
+0906: .        <li  class="dropdown" >.            <a href="/en/underg
+0946: raduate"  class="dropdown-toggle" role="button".               a
+0986: ria-expanded="false" >.                .                Academic
+09c6: s.                .                 <span class="caret"></span> 
+0a06: </a>..            .                <ul class="dropdown-menu" rol
+0a46: e="menu">.                    .                        ..    .  
+0a86:       <li  class="dropdown" >.            <a href="/en/undergrad
+0ac6: uate"  class="dropdown-toggle" role="button".               aria
+0b06: -expanded="false" >.                .                Undergradua
+0b46: te.                .                 <span class="caret"></span>
+0b86:  </a>..            .                <ul class="dropdown-menu" ro
+0bc6: le="menu">.                    .                        ..    . 
+0c06:        <li >.            <a href="/en/cse" >.                .  
+0c46:               Departments (CSE).                .               
+0c86:  </a>..            .        </li>.    ...                    .  
+0cc6:                       ..    .        <li >.            <a href="
+0d06: /en/ice" >.                .                Departments (ICE).  
+0d46:               .                </a>..            .        </li>.
+0d86:     ...                    .                        ..    .     
+0dc6:    <li >.            <a href="/en/sol" >.                .      
+0e06:           School of Logistics.                .                <
+0e46: /a>..            .        </li>.    ...                    .    
+0e86:                     ..    .        <li >.            <a href="/e
+0ec6: n/facultymembers2017-2018" >.                .                Fa
+0f06: culty members.                .                </a>..           
+0f46:  .        </li>.    ...                    .                    
+0f86:     ..    .        <li >.            <a href="/en/coursedescript
+0fc6: ionsfall2015" >.                .                Course Descript
+<= Recv SSL data, 5 bytes (0x5)
+0000: .... 
+<= Recv data, 4104 bytes (0x1008)
+0000: 1000
+0006: ions.                .                </a>..            .       
+0046:  </li>.    ...                    .                        ...  
+0086:                   .                        ..    .        <li >.
+00c6:             <a href="/en/academicscholarship" >.                
+0106: .                Academic scholarship.                .         
+0146:        </a>..            .        </li>.    ...                 
+0186:    .                        ..    .        <li >.            <a 
+01c6: href="/en/abeek" >.                .                ABEEK.      
+0206:           .                </a>..            .        </li>.    
+0246: ...                    .                        ..    .        <
+0286: li >.            <a href="/media/public_files/2018/12/13/Academi
+02c6: c_Affairs_Presentation_2018-2019_last_version.pdf" >.           
+0306:      .                Academic Affairs Division Guidelines.     
+0346:            .                </a>..            .        </li>.   
+0386:  ...                    .                        ...            
+03c6:         .                        ..    .        <li >.          
+0406:   <a href="/en/advising" >.                .                Advi
+0446: sing.                .                </a>..            .       
+0486:  </li>.    ...                    .                </ul>.       
+04c6:      .        </li>.    ...                    .                
+0506:         ..    .        <li  class="dropdown" >.            <a hr
+0546: ef="/conedu"  class="dropdown-toggle" role="button".            
+0586:    aria-expanded="false" >.                .                Cont
+05c6: inuing Education Center.                .                 <span 
+0606: class="caret"></span> </a>..            .                <ul cla
+0646: ss="dropdown-menu" role="menu">.                    .           
+0686:              ...                    .                        .. 
+06c6:    .        <li  class="dropdown" >.            <a href="/en/kid
+0706: -courses"  class="dropdown-toggle" role="button".               
+0746: aria-expanded="false" >.                .                Courses
+0786:  for Kids.                .                 <span class="caret">
+07c6: </span> </a>..            .                <ul class="dropdown-m
+0806: enu" role="menu">.                    .                        .
+0846: .    .        <li >.            <a href="/english-children/" >. 
+0886:                .                English for Children.           
+08c6:      .                </a>..            .        </li>.    ...  
+0906:                   .                        ..    .        <li >.
+0946:             <a href="/en/math-children" >.                .     
+0986:            Math for Children.                .                </
+09c6: a>..            .        </li>.    ...                    .     
+0a06:            </ul>.            .        </li>.    ...             
+0a46:        .                        ..    .        <li  class="dropd
+0a86: own" >.            <a href="/en/english-courses/"  class="dropdo
+0ac6: wn-toggle" role="button".               aria-expanded="false" >.
+0b06:                 .                English Courses.               
+0b46:  .                 <span class="caret"></span> </a>..           
+0b86:  .                <ul class="dropdown-menu" role="menu">.       
+0bc6:              .                        ..    .        <li >.     
+0c06:        <a href="/en/corporatecourses" >.                .       
+0c46:          Corporate English.                .                </a>
+0c86: ..            .        </li>.    ...                    .       
+0cc6:                  ..    .        <li >.            <a href="/engl
+0d06: ish-youngsters/" >.                .                English for 
+0d46: Young Learners and Adults.                .                </a>.
+0d86: .            .        </li>.    ...                    .        
+0dc6:                 ..    .        <li >.            <a href="/engli
+0e06: sh-ielts/" >.                .                IELTS Exam Prepara
+0e46: tion.                .                </a>..            .       
+0e86:  </li>.    ...                    .                </ul>.       
+0ec6:      .        </li>.    ...                    .                
+0f06:         ..    .        <li  class="dropdown" >.            <a hr
+0f46: ef="/en/preuniversity"  class="dropdown-toggle" role="button".  
+0f86:              aria-expanded="false" >.                .          
+0fc6:       Pre-University.                .                 <span cla
+<= Recv SSL data, 5 bytes (0x5)
+0000: .... 
+<= Recv data, 4104 bytes (0x1008)
+0000: 1000
+0006: ss="caret"></span> </a>..            .                <ul class=
+0046: "dropdown-menu" role="menu">.                    .              
+0086:           ..    .        <li >.            <a href="/en/preunive
+00c6: rsityguide" >.                .                Pre-University Gu
+0106: ide.                .                </a>..            .        
+0146: </li>.    ...                    .                        ..    
+0186: .        <li  class="dropdown" >.            <a href="/en/preuni
+01c6: versitycourses"  class="dropdown-toggle" role="button".         
+0206:       aria-expanded="false" >.                .                C
+0246: ourses.                .                 <span class="caret"></s
+0286: pan> </a>..            .                <ul class="dropdown-menu
+02c6: " role="menu">.                    .                        ..  
+0306:   .        <li >.            <a href="/en/preuniversity/math/" >
+0346: .                .                Mathematics.                . 
+0386:                </a>..            .        </li>.    ...         
+03c6:            .                        ..    .        <li >.       
+0406:      <a href="/en/preuniversity/physics/" >.                .   
+0446:              Physics.                .                </a>..    
+0486:         .        </li>.    ...                    .             
+04c6:            ..    .        <li >.            <a href="/en/preuniv
+0506: ersity/english/" >.                .                English.    
+0546:             .                </a>..            .        </li>.  
+0586:   ...                    .                        ..    .       
+05c6:  <li >.            <a href="https://www.inha.uz/media/public_fil
+0606: es/2016/09/22/timetable-preuniversity.pdf." >.                . 
+0646:                Pre-University Timetable.                .       
+0686:          </a>..            .        </li>.    ...               
+06c6:      .                </ul>.            .        </li>.    ...  
+0706:                   .                        ...                  
+0746:   .                        ..    .        <li >.            <a h
+0786: ref="/en/prehowtoapply" >.                .                How t
+07c6: o Apply.                .                </a>..            .    
+0806:     </li>.    ...                    .                        ..
+0846: .                    .                        ..    .        <li
+0886:  >.            <a href="/en/preuniversityfaq" >.                
+08c6: .                FAQ.                .                </a>..    
+0906:         .        </li>.    ...                    .             
+0946:            ..    .        <li >.            <a href="/en/preuniv
+0986: ersitybenefits" >.                .                Benefits for 
+09c6: Pre-University students.                .                </a>.. 
+0a06:            .        </li>.    ...                    .          
+0a46:       </ul>.            .        </li>.    ...                  
+0a86:   .                </ul>.            .        </li>.    ...     
+0ac6:                .                        ..    .        <li >.   
+0b06:          <a href="/en/academiccalendar" >.                .     
+0b46:            Academic Calendar.                .                </
+0b86: a>..            .        </li>.    ...                    .     
+0bc6:                    ..    .        <li >.            <a href="/en
+0c06: /toefl" >.                .                TOEFL.               
+0c46:  .                </a>..            .        </li>.    ...      
+0c86:               .                </ul>.            .        </li>.
+0cc6:     ...                        .                            ..  
+0d06:   .        <li  class="dropdown" >.            <a href="/en/even
+0d46: ts/"  class="dropdown-toggle" role="button".               aria-
+0d86: expanded="false" >.                .                IUT Life.   
+0dc6:              .                 <span class="caret"></span> </a>.
+0e06: .            .                <ul class="dropdown-menu" role="me
+0e46: nu">.                    .                        ..    .       
+0e86:  <li  class="dropdown" >.            <a href=""  class="dropdown
+0ec6: -toggle" role="button".               aria-expanded="false" >.  
+0f06:               .                Students Union.                . 
+0f46:                 <span class="caret"></span> </a>..            . 
+0f86:                <ul class="dropdown-menu" role="menu">.          
+0fc6:           .                        ..    .        <li >.        
+<= Recv SSL data, 5 bytes (0x5)
+0000: .... 
+<= Recv data, 4104 bytes (0x1008)
+0000: 1000
+0006:     <a href="/en/eventsandactivities" >.                .       
+0046:          Events &amp; Activities.                .              
+0086:   </a>..            .        </li>.    ...                    . 
+00c6:                        ..    .        <li >.            <a href=
+0106: "/en/getinvolved" >.                .                Students Un
+0146: ion team.                .                </a>..            .   
+0186:      </li>.    ...                    .                        .
+01c6: .    .        <li >.            <a href="/en/studentclubs" >.   
+0206:              .                Student Clubs.                .   
+0246:              </a>..            .        </li>.    ...           
+0286:          .                        ..    .        <li >.         
+02c6:    <a href="/en/news_cat/18" >.                .                
+0306: Kamolot &amp; SU Activities.                .                </a
+0346: >..            .        </li>.    ...                    .      
+0386:           </ul>.            .        </li>.    ...              
+03c6:       .                        ..    .        <li  class="dropdo
+0406: wn" >.            <a href=""  class="dropdown-toggle" role="butt
+0446: on".               aria-expanded="false" >.                .    
+0486:             Libraries and Facilities.                .          
+04c6:        <span class="caret"></span> </a>..            .          
+0506:       <ul class="dropdown-menu" role="menu">.                   
+0546:  .                        ..    .        <li >.            <a hr
+0586: ef="/en/informationresourcecenter" >.                .          
+05c6:       Information Resource Center.                .             
+0606:    </a>..            .        </li>.    ...                    .
+0646:                         ..    .        <li >.            <a href
+0686: ="/en/library" >.                .                Library.      
+06c6:           .                </a>..            .        </li>.    
+0706: ...                    .                        ..    .        <
+0746: li >.            <a href="/en/pclabs" >.                .       
+0786:          PC Labs.                .                </a>..        
+07c6:     .        </li>.    ...                    .                 
+0806:        ..    .        <li >.            <a href="/en/physicslabs
+0846: " >.                .                Physics Labs.              
+0886:   .                </a>..            .        </li>.    ...     
+08c6:                .                        ..    .        <li >.   
+0906:          <a href="/en/datacenter" >.                .           
+0946:      Data Center.                .                </a>..        
+0986:     .        </li>.    ...                    .                 
+09c6:        ..    .        <li >.            <a href="/en/samsungvisi
+0a06: oncenter" >.                .                Samsung Vision Cent
+0a46: er.                .                </a>..            .        <
+0a86: /li>.    ...                    .                        ..    .
+0ac6:         <li >.            <a href="/en/healthcenter" >.         
+0b06:        .                Health Center.                .         
+0b46:        </a>..            .        </li>.    ...                 
+0b86:    .                        ..    .        <li >.            <a 
+0bc6: href="/en/sportfacilities" >.                .                Sp
+0c06: orts Facilities.                .                </a>..         
+0c46:    .        </li>.    ...                    .                  
+0c86:       ..    .        <li >.            <a href="/en/studentloung
+0cc6: eandteahouse" >.                .                Student Lounge 
+0d06: and Tea House.                .                </a>..           
+0d46:  .        </li>.    ...                    .                </ul
+0d86: >.            .        </li>.    ...                    .       
+0dc6:                  ..    .        <li  class="dropdown" >.        
+0e06:     <a href="/en/albums/"  class="dropdown-toggle" role="button"
+0e46: .               aria-expanded="false" >.                .       
+0e86:          Media Library.                .                 <span c
+0ec6: lass="caret"></span> </a>..            .                <ul clas
+0f06: s="dropdown-menu" role="menu">.                    .            
+0f46:             ..    .        <li >.            <a href="/en/albums
+0f86: /" >.                .                Photo Gallery.            
+0fc6:     .                </a>..            .        </li>.    ...   
+<= Recv SSL data, 5 bytes (0x5)
+0000: .... 
+<= Recv data, 4104 bytes (0x1008)
+0000: 1000
+0006:                  .                        ..    .        <li >. 
+0046:            <a href="/en/videomedia" >.                .         
+0086:        Video Media.                .                </a>..      
+00c6:       .        </li>.    ...                    .               
+0106:  </ul>.            .        </li>.    ...                    .  
+0146:                       ..    .        <li >.            <a href="
+0186: /news_cat/10" >.                .                Interviews.    
+01c6:             .                </a>..            .        </li>.  
+0206:   ...                    .                        ..    .       
+0246:  <li >.            <a href="/en/news_cat/12" >.                .
+0286:                 Challenges and Competitions.                .   
+02c6:              </a>..            .        </li>.    ...           
+0306:          .                        ..    .        <li >.         
+0346:    <a href="/en/touchmath" >.                .                To
+0386: uch Math.                .                </a>..            .   
+03c6:      </li>.    ...                    .                        .
+0406: .    .        <li >.            <a href="http://itforum.inha.uz"
+0446:  >.                .                IT Forum.                .  
+0486:               </a>..            .        </li>.    ...          
+04c6:           .                        ..    .        <li >.        
+0506:     <a href="/news_cat/15" >.                .                In
+0546: ternship opportunities.                .                </a>..  
+0586:           .        </li>.    ...                    .           
+05c6:              ..    .        <li >.            <a href="/en/news_
+0606: cat/16" >.                .                Student Achievements.
+0646:                 .                </a>..            .        </li
+0686: >.    ...                    .                        ..    .   
+06c6:      <li >.            <a href="/en/fossforum/" >.              
+0706:   .                FOSS Forum.                .                <
+0746: /a>..            .        </li>.    ...                    .    
+0786:                     ..    .        <li >.            <a href="/i
+07c6: tservices" >.                .                IT Services.      
+0806:           .                </a>..            .        </li>.    
+0846: ...                    .                        ..    .        <
+0886: li >.            <a href="/en/studenthousing" >.                
+08c6: .                Student housing.                .              
+0906:   </a>..            .        </li>.    ...                    . 
+0946:                </ul>.            .        </li>.    ...         
+0986:                .                            ..    .        <li  
+09c6: class="dropdown" >.            <a href="/en/events/"  class="dro
+0a06: pdown-toggle" role="button".               aria-expanded="false"
+0a46:  >.                .                News &amp; Events.          
+0a86:       .                 <span class="caret"></span> </a>..      
+0ac6:       .                <ul class="dropdown-menu" role="menu">.  
+0b06:                   .                        ..    .        <li >.
+0b46:             <a href="/en/news" >.                .              
+0b86:   IUT News.                .                </a>..            . 
+0bc6:        </li>.    ...                    .                       
+0c06:  ..    .        <li  class="dropdown" >.            <a href="/en
+0c46: /events/"  class="dropdown-toggle" role="button".               
+0c86: aria-expanded="false" >.                .                IUT Eve
+0cc6: nts.                .                 <span class="caret"></span
+0d06: > </a>..            .                <ul class="dropdown-menu" r
+0d46: ole="menu">.                    .                        ...    
+0d86:                 .                        ..    .        <li >.  
+0dc6:           <a href="/en/eventscalendar" >.                .      
+0e06:           Event Calendar.                .                </a>..
+0e46:             .        </li>.    ...                    .         
+0e86:                ...                    .                        .
+0ec6: ..                    .                        ...              
+0f06:       .                </ul>.            .        </li>.    ... 
+0f46:                    .                        ...                 
+0f86:    .                        ...                    .            
+0fc6:             ..    .        <li >.            <a href="/news_cat/
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv data, 2695 bytes (0xa87)
+0000: a80
+0005: 9" >.                .                Academic affairs news.    
+0045:             .                </a>..            .        </li>.  
+0085:   ...                    .                        ..    .       
+00c5:  <li >.            <a href="/en/jobs/" >.                .      
+0105:           Vacancies.                .                </a>..     
+0145:        .        </li>.    ...                    .              
+0185:           ..    .        <li >.            <a href="/en/news_cat
+01c5: /11" >.                .                Jobs for IUT students.  
+0205:               .                </a>..            .        </li>.
+0245:     ...                    .                        ..    .     
+0285:    <li >.            <a href="/en/news_cat/7" >.                
+02c5: .                Summer Activities 2015.                .       
+0305:          </a>..            .        </li>.    ...               
+0345:      .                        ..    .        <li >.            <
+0385: a href="/en/news_cat/6" >.                .                In th
+03c5: e Media.                .                </a>..            .    
+0405:     </li>.    ...                    .                        ..
+0445:     .        <li >.            <a href="/en/procurementnotices" 
+0485: >.                .                Procurement notices.         
+04c5:        .                </a>..            .        </li>.    ...
+0505:                     .                        ..    .        <li 
+0545: >.            <a href="/en/news_cat/13" >.                .     
+0585:            Spirituality.                .                </a>.. 
+05c5:            .        </li>.    ...                    .          
+0605:               ..    .        <li >.            <a href="/en/news
+0645: _cat/14" >.                .                Newly arrived books.
+0685:                 .                </a>..            .        </li
+06c5: >.    ...                    .                        ..    .   
+0705:      <li >.            <a href="/en/latesttrends/" >.           
+0745:      .                Latest trends in education.               
+0785:  .                </a>..            .        </li>.    ...      
+07c5:               .                </ul>.            .        </li>.
+0805:     ...                        .                            ..  
+0845:   .        <li  class="dropdown" >.            <a href=""  class
+0885: ="dropdown-toggle" role="button".               aria-expanded="f
+08c5: alse" >.                .                Engage.                
+0905: .                 <span class="caret"></span> </a>..            
+0945: .                <ul class="dropdown-menu" role="menu">.        
+0985:             .                        ..    .        <li >.      
+09c5:       <a href="/en/foundersandsponsors" >.                .     
+0a05:            Founders and Sponsors.                .              
+0a45:   </a>..            .        </li>.    ...                    . 
+<= Recv SSL data, 5 bytes (0x5)
+0000: .... 
+<= Recv data, 4104 bytes (0x1008)
+0000: 1000
+0006:                        ...                    .                 
+0046:        ...                    .                        ...      
+0086:               .                        ...                    . 
+00c6:                        ..    .        <li >.            <a href=
+0106: "/en/give2iut" >.                .                Giving to IUT.
+0146:                 .                </a>..            .        </li
+0186: >.    ...                    .                        ..    .   
+01c6:      <li >.            <a href="/en/partnerships" >.            
+0206:     .                Partnerships.                .             
+0246:    </a>..            .        </li>.    ...                    .
+0286:                 </ul>.            .        </li>.    ...        
+02c6:                 .                            ...                
+0306:         .                            ...                        
+0346: .                    </ul>.                    <div class="MakeA
+0386: Gift">.                        <a href="/en/pages/57/">MAKE A GI
+03c6: FT</a>.                    </div>.                </div>.       
+0406:          <!-- /.navbar-collapse -->.            </div>.         
+0446:    <!-- /.container-fluid -->.        </nav>.    </div>.</div>..
+0486: .    .<div id="banner">.    <div class="slider bfade">.        .
+04c6:             <div>.                <div class="image">.          
+0506:           <a href="news/750/">.                        <img src=
+0546: "/media/banner/ban-OpenDay.jpg.1650x450_q85_crop.jpg">..        
+0586:                 <div class="wrapper_carousel-caption">.         
+05c6:                    <div class="carousel-caption">.              
+0606:                   <h3>Inha University in Tashkent to hold Open D
+0646: oors Day</h3>..                                <p>Inha Universit
+0686: y in Tashkent (IUT) will hold Open Doors Day for students of sch
+06c6: ools, academic lyceums and professional colleges, as well as the
+0706: ir parents.
+0713: 
+0715: </p>..                            </div>.                       
+0755:  </div>.                    </a>.                </div>.        
+0795:     </div>.        .            <div>.                <div class
+07d5: ="image">.                    <a href="news/746/">.             
+0815:            <img src="/media/banner/ban-summer.jpg.1650x450_q85_c
+0855: rop.jpg">..                        <div class="wrapper_carousel-
+0895: caption">.                            <div class="carousel-capti
+08d5: on">.                                <h3>IUT students to partici
+0915: pate in Summer School of Inha University in Korea</h3>..        
+0955:                         <p>A group of students of Inha Universit
+0995: y in Tashkent (IUT) will receive a chance to participate in summ
+09d5: er school of Inha University in Korea for the fifth time, which 
+0a15: will take place from 22 July to 9 August 2019.
+0a45: </p>..                            </div>.                       
+0a85:  </div>.                    </a>.                </div>.        
+0ac5:     </div>.        .            <div>.                <div class
+0b05: ="image">.                    <a href="news/737/">.             
+0b45:            <img src="/media/banner/ban-preuni_3.jpg.1650x450_q85
+0b85: _crop.jpg">..                        <div class="wrapper_carouse
+0bc5: l-caption">.                            <div class="carousel-cap
+0c05: tion">.                                <h3>IUT starts registrati
+0c45: on of students for intensive Pre-University Courses</h3>..      
+0c85:                           <p>On the numerous requests, Continuin
+0cc5: g Education Center of Inha University in Tashkent invites young 
+0d05: people to intensive Pre-University Courses to prepare themselves
+0d45:  to university entrance exams and improve their knowledge.
+0d81: 
+0d83: </p>..                            </div>.                       
+0dc3:  </div>.                    </a>.                </div>.        
+0e03:     </div>.        .            <div>.                <div class
+0e43: ="image">.                    <a href="news/735/">.             
+0e83:            <img src="/media/banner/1-ban_3.jpg.1650x450_q85_crop
+0ec3: .jpg">..                        <div class="wrapper_carousel-cap
+0f03: tion">.                            <div class="carousel-caption"
+0f43: >.                                <h3>IUT website leads the rank
+0f83: ing in citation</h3>..                                <p>Accordi
+0fc3: ng to Webometrics statistics via Google Scholar, Inha.uz domain 
+1003: lea
+<= Recv SSL data, 5 bytes (0x5)
+0000: .... 
+<= Recv data, 4104 bytes (0x1008)
+0000: 1000
+0006: ds in the number of citations done by professors among Universit
+0046: ies in Uzbekistan by the end of 2018 year.
+0072: 
+0074: </p>..                            </div>.                       
+00b4:  </div>.                    </a>.                </div>.        
+00f4:     </div>.        .    </div>.</div>.    <div class="content">.
+0134:         <div class="container">.            ....<div class="news
+0174: AndEventsBlock bsglavNews">.    <div class="col-md-8">.        <
+01b4: div class="wrapTitle">.            <h2>NEWS</h2>.            <a 
+01f4: href="/en/news/">All news ..</a>.        </div>.        <div cla
+0234: ss="row">.            .                ..                <div cl
+0274: ass="col-md-6">.                    <div class="newsBlock">.    
+02b4:                     .                            <div class="new
+02f4: sBlockImg">.                                <img src="/media/new
+0334: s/720-OpenDay.jpg.358x144_q85_crop.jpg"/>..                     
+0374:            <div class="newsBlockDate">.                         
+03b4:            <span class="newsBlockDateD">08</span>.              
+03f4:                       <span class="newsBlockDateM">February</spa
+0434: n>.                                </div>.                      
+0474:       </div>.                        .                        <d
+04b4: iv class="newsBlockText">.                            <h4>Inha U
+04f4: niversity in Tashkent to hold Open Doors Day</h4>..             
+0534:                <p class="newsBlockTextT">.                      
+0574:           Inha University in Tashkent (IUT) will hold Open Doors
+05b4:  Day for students of schools, academic lyceums and professional 
+05f4: colleges, as well as their pa....                            </p
+0634: >.                            <a href="/en/news/750/">Read more 
+0674: ..</a>.                        </div>.                    </div>
+06b4: .                </div>..            .                ..        
+06f4:         <div class="col-md-6">.                    <div class="n
+0734: ewsBlock">.                        .                            
+0774: <div class="newsBlockImg">.                                <img 
+07b4: src="/media/news/IMG_8985.jpg.358x144_q85_crop.jpg"/>..         
+07f4:                        <div class="newsBlockDate">.             
+0834:                        <span class="newsBlockDateD">07</span>.  
+0874:                                   <span class="newsBlockDateM">F
+08b4: ebruary</span>.                                </div>.          
+08f4:                   </div>.                        .              
+0934:           <div class="newsBlockText">.                          
+0974:   <h4>IUT professor appointed as Executive Director for the NRNU
+09b4:  MEPhI</h4>..                            <p class="newsBlockText
+09f4: T">.                                Professor of Inha University
+0a34:  in Tashkent (IUT) Alisher Sanetullaev has been appointed as Exe
+0a74: cutive Director of the branch of the Federal State Auto....     
+0ab4:                        </p>.                            <a href=
+0af4: "/en/news/749/">Read more ..</a>.                        </div>.
+0b34:                     </div>.                </div>..            .
+0b74:                 .                    </div>.                    
+0bb4: <div class="row">.                ..                <div class="
+0bf4: col-md-6">.                    <div class="newsBlock">.         
+0c34:                .                        <div class="newsBlockTex
+0c74: t">.                            <h4>Let&#39;s start the day with
+0cb4:  good news!</h4>..                            <p class="newsBloc
+0cf4: kTextT">.                                The Polymedia Uzbekista
+0d34: n project won an international award in the AV industry - InAVat
+0d74: ion Awards.
+0d81: 
+0d83: The project in the Education category is Inha....               
+0dc3:              </p>.                            <a href="/en/news/
+0e03: 748/">Read more ..</a>.                        </div>.          
+0e43:           </div>.                </div>..            .          
+0e83:       ..                <div class="col-md-6">.                 
+0ec3:    <div class="newsBlock">.                        .            
+0f03:             <div class="newsBlockText">.                        
+0f43:     <h4>Project DreamJob School ends</h4>..                     
+0f83:        <p class="newsBlockTextT">.                              
+0fc3:   A two-day DreamJob School training was held on 4 and 5 Februar
+1003: y a
+<= Recv SSL data, 5 bytes (0x5)
+0000: .... 
+<= Recv data, 4104 bytes (0x1008)
+0000: 1000
+0006: t Inha University in Tashkent (IUT)..                           
+0046:  </p>.                            <a href="/en/news/747/">Read m
+0086: ore ..</a>.                        </div>.                    </
+00c6: div>.                </div>..            .            </div>..  
+0106:   </div>.    <div class="col-md-4">.        <div class="wrapTitl
+0146: e">.            <h2>For current students</h2>.        </div>.   
+0186:      <div class="col-md-12 mr_block">.            .             
+01c6:    <div class="mr_link">.                    <span class="mrl_da
+0206: te">01 November</span>.                    <a href="/en/news/488
+0246: /">The Islam Karimov Foundation announces the launch of its 2018
+0286:  master...s degree scholarship programme</a>.                </d
+02c6: iv>.            .                <div class="mr_link">.         
+0306:            <span class="mrl_date">06 September</span>.          
+0346:           <a href="/en/news/465/">Elections to Primary Organizat
+0386: ion of Uzbekistan Youth Union</a>.                </div>.       
+03c6:      .                <div class="mr_link">.                    
+0406: <span class="mrl_date">21 July</span>.                    <a hre
+0446: f="/en/news/446/">Vacancies from ZipWolf for IUT students</a>.  
+0486:               </div>.            .                <div class="mr
+04c6: _link">.                    <span class="mrl_date">28 March</spa
+0506: n>.                    <a href="news/400/">Sarkor Telecom compan
+0546: y invites students to apply for the position of Sales Agent.</a>
+0586: .                </div>.            .                <div class=
+05c6: "mr_link">.                    <span class="mrl_date">12 March</
+0606: span>.                    <a href="news/394/">Work opportunity f
+0646: or IUT students</a>.                </div>.            .        
+0686:         <div class="mr_link">.                    <span class="m
+06c6: rl_date">20 January</span>.                    <a href="news/379
+0706: /">Contest Technovation launched in Uzbekistan</a>.             
+0746:    </div>.            .                <div class="mr_link">.   
+0786:                  <span class="mrl_date">22 December</span>.     
+07c6:                <a href="news/370/">Besh Yulduz Ltd offers jobs t
+0806: o IUT students</a>.                </div>.            .         
+0846:        <div class="mr_link">.                    <span class="mr
+0886: l_date">19 December</span>.                    <a href="news/369
+08c6: /">MyTaxi.uz offers jobs</a>.                </div>.            
+0906: .                <div class="mr_link">.                    <span
+0946:  class="mrl_date">07 November</span>.                    <a href
+0986: ="news/353/">Zipwolf offers paid internships</a>.               
+09c6:  </div>.            .                <div class="mr_link">.     
+0a06:                <span class="mrl_date">07 October</span>.        
+0a46:             <a href="news/343/">MIT contest announcement</a>.   
+0a86:              </div>.            .        </div>.    </div>.</div
+0ac6: >.<div class="newsAndEventsBlock bsglavNews">.    <div class="co
+0b06: l-md-8">.        <div class="wrapTitle">.            <h2>EVENTS<
+0b46: /h2>.            <a href="/en/events/">All EVENTS ..</a>.       
+0b86:  </div>.        <div class="row">.            .                .
+0bc6: .                <div class="col-md-6">.                    <div
+0c06:  class="newsBlock">..                        .                  
+0c46:           <div class="newsBlockImg">.                           
+0c86:      <img src="/media/events/pahromenko.jpg.358x144_q85_crop.jpg
+0cc6: "/>..                                <div class="newsBlockDate">
+0d06: .                                    <span class="newsBlockDateD
+0d46: ">25</span>.                                    <span class="new
+0d86: sBlockDateM">December</span>.                                </d
+0dc6: iv>.                            </div>.                        .
+0e06:                         <div class="newsBlockText">.            
+0e46:                 <h4>Expert from Belarus shares his knowledge on 
+0e86: establishing successful startups</h4>..                         
+0ec6:    <p class="newsBlockTextT">.                                Th
+0f06: e Head of Economics Department of the Belarusian State Universit
+0f46: y of Informatics and Radioelectronics Vladimir Parhimenko shared
+0f86:  his knowledge on....                            </p>.          
+0fc6:                   <a href="/en/events/235/">Read more ..</a>.   
+<= Recv SSL data, 5 bytes (0x5)
+0000: .... 
+<= Recv data, 4104 bytes (0x1008)
+0000: 1000
+0006:                      </div>.                    </div>.         
+0046:        </div>..            .                ..                <d
+0086: iv class="col-md-6">.                    <div class="newsBlock">
+00c6: ..                        .                            <div clas
+0106: s="newsBlockImg">.                                <img src="/med
+0146: ia/events/IMG_9626.jpg.358x144_q85_crop.jpg"/>..                
+0186:                 <div class="newsBlockDate">.                    
+01c6:                 <span class="newsBlockDateD">20</span>.         
+0206:                            <span class="newsBlockDateM">December
+0246: </span>.                                </div>.                 
+0286:            </div>.                        .                     
+02c6:    <div class="newsBlockText">.                            <h4>S
+0306: tudents Institute for research of youth problems pay visit to IU
+0346: T</h4>..                            <p class="newsBlockTextT">. 
+0386:                                Students of retraining courses of
+03c6:  the Institute for research of youth problems and training prosp
+0406: ective personnel at the Academy of Public Administ....          
+0446:                   </p>.                            <a href="/en/
+0486: events/234/">Read more ..</a>.                        </div>.   
+04c6:                  </div>.                </div>..            .   
+0506:              .                    </div>.                    <di
+0546: v class="row">.                ..                <div class="col
+0586: -md-6">.                    <div class="newsBlock">..           
+05c6:              .                        <div class="newsBlockText"
+0606: >.                            <h4>Uzbektelecom presents its inte
+0646: rnship program to IUT students</h4>..                           
+0686:  <p class="newsBlockTextT">.                                ...U
+06c6: zbektelecom... JSC held a meeting with a group of students of In
+0706: ha University in Tashkent (IUT) to present them internship oppor
+0746: tunities at nationa....                            </p>.        
+0786:                     <a href="/en/events/233/">Read more ..</a>. 
+07c6:                        </div>.                    </div>.       
+0806:          </div>..            .                ..                
+0846: <div class="col-md-6">.                    <div class="newsBlock
+0886: ">..                        .                        <div class=
+08c6: "newsBlockText">.                            <h4>Delegation of D
+0906: aegu Haany University visits IUT to discuss cooperation areas</h
+0946: 4>..                            <p class="newsBlockTextT">.     
+0986:                            A delegation of Daegu Haany Universit
+09c6: y (South Korea) visited Inha University in Tashkent to establish
+0a06:  cooperation relations and deliberate promisin....              
+0a46:               </p>.                            <a href="/en/even
+0a86: ts/232/">Read more ..</a>.                        </div>.       
+0ac6:              </div>.                </div>..            .       
+0b06:      </div>.        ..    </div>.    <div class="col-md-4">.    
+0b46:     <div class="wrapTitle">.            <h2>For prospective stud
+0b86: ents</h2>.        </div>.        <div class="col-md-12 mr_block"
+0bc6: >.            .                <div class="mr_link">.           
+0c06:          <span class="mrl_date">18 July</span>.                 
+0c46:    <a href="/en/news/445/">Instructions for IUT Entrance Examina
+0c86: tion (SOL)</a>.                </div>.            .             
+0cc6:    <div class="mr_link">.                    <span class="mrl_da
+0d06: te">18 July</span>.                    <a href="/en/news/444/">I
+0d46: nstructions for IUT Entrance Examination (SOCIE Second Session)<
+0d86: /a>.                </div>.            .                <div cla
+0dc6: ss="mr_link">.                    <span class="mrl_date">18 July
+0e06: </span>.                    <a href="/en/news/443/">Instructions
+0e46:  for IUT Entrance Examination (SOCIE First Session)</a>.        
+0e86:         </div>.            .                <div class="mr_link"
+0ec6: >.                    <span class="mrl_date">17 July</span>.    
+0f06:                 <a href="/en/news/442/">To attention of register
+0f46: ed prospective students!</a>.                </div>.            
+0f86: .                <div class="mr_link">.                    <span
+0fc6:  class="mrl_date">11 November</span>.                    <a href
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....O
+<= Recv data, 3895 bytes (0xf37)
+0000: f30
+0005: ="/en/pages/26/">Pre-university FAQ</a>.                </div>. 
+0045:            .                <div class="mr_link">.              
+0085:       <span class="mrl_date">11 November</span>.                
+00c5:     <a href="/en/pages/56/">Apply for IUT pre-university</a>.   
+0105:              </div>.            .                <div class="mr_
+0145: link">.                    <span class="mrl_date">11 November</s
+0185: pan>.                    <a href="/en/pages/15/">Apply for IUT u
+01c5: ndergraduate</a>.                </div>.            .           
+0205:      <div class="mr_link">.                    <span class="mrl_
+0245: date">11 November</span>.                    <a href="/en/pages/
+0285: 65/">IUT admissions FAQ</a>.                </div>.            .
+02c5:         </div>.    </div>.</div>...                .    .    .  
+0305:   .    .    .        .    .            <div class="col-md-4">.  
+0345:               .<div class="wrapTitle">.    <h2>Why IUT?</h2>.   
+0385:  <a href="/en/whyiut/">More..</a>.</div>.<div class="WhyIutBlock
+03c5: ">.    .    <div class="WhyIutBlockIn">.        <h4>Why should I
+0405:  study at IUT?</h4>..        <p class="WhyIutBlockInT">.        
+0445:    The following article is available in Russian and Uzbek langu
+0485: ages.&nbsp;.        </p>.          <a href="/en/whyiut/5/">Read 
+04c5: more..</a>.    </div>.    .    <div class="WhyIutBlockIn">.     
+0505:    <h4>Why should I choose IUT?</h4>..        <p class="WhyIutBl
+0545: ockInT">.           It has been over 60 years since Inha Univers
+0585: ity was established upon the ideals of leadership and expertise 
+05c5: and service to the country.
+05e2: 
+05e4: &nbsp;.        </p>.          <a href="/en/whyiut/4/">Read more.
+0624: .</a>.    </div>.    .    <div class="WhyIutBlockIn">.        <h
+0664: 4>Mission and objectives of the Inha University in Tashkent (IUT
+06a4: )</h4>..        <p class="WhyIutBlockInT">.           The centra
+06e4: l mission&nbsp;of Inha University in Tashkent is to achieve exce
+0724: llence in the undergraduate and graduate education..        </p>
+0764: .          <a href="/en/whyiut/2/">Read more..</a>.    </div>.  
+07a4:   .</div>..            </div>....            <div class="col-md-
+07e4: 4">.                <div class="wrapTitle">.                    
+0824: <h2>PHOTOS & VIDEOS</h2>.                    <a href="/en/albums
+0864: /">More ..</a>.                </div>.                <div class
+08a4: ="PhotosVideosBlock">.                    ..    <div class="Phot
+08e4: osVideosBlockP">.        <a href="/albums/122"  rel="group2" tit
+0924: le="Second Touch Math Festival (Day 3)">.        <img src="/medi
+0964: a/photo/IMG_0796.jpg.153x152_q85_crop.jpg"/>.        </a>.    </
+09a4: div>..    <div class="PhotosVideosBlockP">.        <a href="/alb
+09e4: ums/122"  rel="group2" title="Second Touch Math Festival (Day 3)
+0a24: ">.        <img src="/media/photo/IMG_0779.jpg.153x152_q85_crop.
+0a64: jpg"/>.        </a>.    </div>...                </div>.        
+0aa4:         .<div class="wrapTitle">.    <h2>In the media</h2>.</div
+0ae4: >.<div class="WhyIutBlock">.    .    <div class="WhyIutBlockIn">
+0b24: ....        <p class="WhyIutBlockInT">.           Watch videos r
+0b64: elated to university life and more..        </p>.          <a hr
+0ba4: ef="/en/mainblock/2/">Read more..</a>.    </div>.    .</div>... 
+0be4:            </div>.            <div class="col-md-4">.           
+0c24:      . <div class="wrapTitle">.                    <h2>IN FOCUS<
+0c64: /h2>.                </div>.<div class="InFocusBlock">.         
+0ca4:            <h4>Benefits for Pre-University students</h4>..      
+0ce4:               <div class="InFocusBlockText">.                   
+0d24:      <p>Inha University in Tashkent provides following benefits 
+0d64: to the students of the Pre-University courses:</p>
+0d98: 
+0d9a: <ul>
+0da0: .<li>Students will be exempted from taking the IUT entrance exam
+0de0: ination if they get 60 points for each subject during the final 
+0e20: examination.</li>
+0e33: .<li>Only Pre-University students have a second chance to take t
+0e73: he entrance examination.</li>
+0e92: .<li>First and second year students of colleges and academic lyc
+0ed2: eums will become the IUT students after a successful completion 
+0f12: of their studies.</li>
+0f2a: .<li>Pre-Un
+<= Recv SSL data, 5 bytes (0x5)
+0000: .... 
+<= Recv data, 4104 bytes (0x1008)
+0000: 1000
+0006: iversity students have an opportunity to use the university faci
+0046: lities.</li>
+0054: </ul>
+005b: 
+005d: <p>&nbsp;</p>
+006c: .                    </div>.                    <a href="/en/inf
+00ac: ocus/4/">Read more ..</a>.                </div>..            </
+00ec: div>.        <div class="clearfix"></div>.    ...    ..<div clas
+012c: s="col-md-12">.                <div class="bottomBanner">.      
+016c:               <div class="bottomBannerImg">.                    
+01ac:     <img src="/media/template_1_K9uAygX.png.720x290_q85_crop_wrp
+01ec: ZVs7.png.400x176_q85_crop.png"/>.                    </div>.    
+022c:                 <div class="bottomBannerText">.                 
+026c:        <p class="bottomBannerTextTop">Apply for </p>.           
+02ac:              <h3>Hot jobs and vacancies</h3>..                  
+02ec:       <p class="bottomBannerTextT">at Inha University in Tashken
+032c: t!</p>.                    </div>.                </div>.       
+036c:          <div class="ClickHere"><a href="/en/jobs/">Click Here</
+03ac: a><span></span></div>.            </div>...            <div clas
+03ec: s="col-md-12">.                <div class="blockAddress">.      
+042c:               <div class="blockAddressInTash">.                 
+046c:        <div class="blockAddressCity">.                          
+04ac:   Inha University<br/>.                            in <a href="#
+04ec: ">Tashkent</a>.                        </div>.                  
+052c:       <table class="blockAddressTable">.                        
+056c:     <tr>.                                <td>Office :</td>.     
+05ac:                            <td>9, Ziyolilar str., M.Ulugbek dist
+05ec: rict, Tashkent city</td>.                            </tr>.     
+062c:                        <tr>.                                <td>
+066c: Phone :</td>.                                <td>+998 71 289-99-
+06ac: 99</td>.                            </tr>.                      
+06ec:       <tr>.                                    <td>Fax :</td>.  
+072c:                                   <td> +998 71 269-00-58</td>.  
+076c:                               </tr>.                            
+07ac: <tr>.                                <td>Email :</td>.          
+07ec:                       <td><a href="mailto:info@inha.uz">info@inh
+082c: a.uz</a></td>.                            </tr>.                
+086c:             <tr>.                                <td>Website :</
+08ac: td>.                                <td><a href="http://www.iut.
+08ec: uz">www.iut.uz, </a><a.                                        h
+092c: ref="https://www.inha.uz">www.inha.uz</a></td>.                 
+096c:            </tr>.                        </table>.              
+09ac:       </div>.                    <div class="blockAddressInKor">
+09ec: ..                            <div class="blockAddressCity">.   
+0a2c:                              Inha University<br/>.              
+0a6c:                   <a href="#"> KOREA </a>.                      
+0aac:       </div>.                            <table class="blockAddr
+0aec: essTable">.                                <tr>.                
+0b2c:                     <td>Office :</td>.                          
+0b6c:           <td>INHA University Admissions office 100, INHA Avenue
+0bac: , Nam-gu, Incheon, Korea</td>.                                </
+0bec: tr>.                                <tr>.                       
+0c2c:              <td>Phone :</td>.                                  
+0c6c:   <td>0082-32-860-7221~5</td>.                                </
+0cac: tr>.                                <tr>.                       
+0cec:              <td>Fax :</td>.                                    
+0d2c: <td>0082-32-860-7210</td>.                                </tr>.
+0d6c:                                 <tr>.                           
+0dac:          <td>Website :</td>.                                    
+0dec: <td><a href="http://eng.inha.ac.kr">eng.inha.ac.kr</a></td>.    
+0e2c:                             </tr>.                            </
+0e6c: table>.                    </div>.                </div>.       
+0eac:      </div>..        </div>.    </div>.    ..<footer>.    <div c
+0eec: lass="container">.        <div class="topFooter">.            <d
+0f2c: iv class="footMenu-1">.                <h4 class="footerTitle">.
+0f6c:                     about.                </h4>.                
+0fac: <ul>.                    ..    <li>.        <a href="/en/news/">
+0fec:  IUT News</a>.    </li>.. 
+<= Recv SSL data, 5 bytes (0x5)
+0000: .... 
+<= Recv data, 4104 bytes (0x1008)
+0000: 1000
+0006:    <li>.        <a href="/en/introductiontoiut"> Introduction to
+0046:  IUT</a>.    </li>..    <li>.        <a href="/en/iutsymbols"> I
+0086: UT Symbols </a>.    </li>..    <li>.        <a href="/en/buildin
+00c6: gs"> Campus Guide</a>.    </li>..    <li>.        <a href="/en/m
+0106: ission"> Mission</a>.    </li>..    <li>.        <a href=""> Vis
+0146: itors Guide </a>.    </li>..    <li>.        <a href="/en/rector
+0186: smessage"> Rector`s Office</a>.    </li>..    <li>.        <a hr
+01c6: ef="/en/contactiut"> Contact IUT</a>.    </li>..    <li>.       
+0206:  <a href="/en/universityorganization"> University Organization</
+0246: a>.    </li>...                </ul>.            </div>.        
+0286:     <div class="footMenu-2">.                <h4 class="footerTi
+02c6: tle">.                    admissions.                </h4>.     
+0306:            <ul>.                    ..    <li>.        <a href="
+0346: "> Undergraduate</a>.    </li>...                </ul>.         
+0386:    </div>.            <div class="footMenu-3">.                <
+03c6: h4 class="footerTitle">.                    academics.          
+0406:       </h4>.                <ul>.                    ..    <li>.
+0446:         <a href="/en/toefl"> TOEFL</a>.    </li>..    <li>.     
+0486:    <a href="/en/undergraduate"> Undergraduate</a>.    </li>..   
+04c6:  <li>.        <a href="/conedu"> Continuing Education Center</a>
+0506: .    </li>..    <li>.        <a href="/en/academiccalendar"> Aca
+0546: demic Calendar</a>.    </li>...                </ul>.           
+0586:  </div>.            <div class="footMenu-4">.                <h4
+05c6:  class="footerTitle">.                    QUICK LINKS.          
+0606:       </h4>.                <ul>.                    ..         
+0646: .            ..    .        <li >.            <a href="/en/howto
+0686: apply" >.                .                ADMISSIONS.           
+06c6:      .                </a>..            .        </li>.    ...  
+0706:       .            ..    .        <li >.            <a href="/en
+0746: /events" >.                .                IUT EVENTS.         
+0786:        .                </a>..            .        </li>.    ...
+07c6:         .            ..    .        <li >.            <a href="/
+0806: en/undergraduate/" >.                .                DEPARTMENT
+0846: S.                .                </a>..            .        </
+0886: li>.    ...        .            ..    .        <li >.           
+08c6:  <a href="/en/tuition/" >.                .                TUITI
+0906: ON FEES.                .                </a>..            .    
+0946:     </li>.    ...        .            ..    .        <li >.     
+0986:        <a href="/en/scholarships" >.                .           
+09c6:      SCHOLARSHIP.                .                </a>..        
+0a06:     .        </li>.    ...        .            ..    .        <l
+0a46: i >.            <a href="/en/jobs" >.                .          
+0a86:       JOBS AT IUT.                .                </a>..       
+0ac6:      .        </li>.    ...        .            ..    .        <
+0b06: li >.            <a href="/en/contact/" >.                .     
+0b46:            CONTACT IUT.                .                </a>..  
+0b86:           .        </li>.    ...        .            ..    .    
+0bc6:     <li >.            <a href="/en/give2iut" >.                .
+0c06:                 MAKE A GIFT.                .                </a
+0c46: >..            .        </li>.    ...        ..                <
+0c86: /ul>.            </div>.        </div>.        <div class="Botto
+0cc6: mFooter">.            <div class="copyRight">.                &c
+0d06: opy; 2019 INHA UNIVERSITY IN TASHKENT.            </div>.       
+0d46:      <div class="ShareThisPage">.               <img src="/stati
+0d86: c/inha/qr_code.png" alt="Qr code" title="qr_code" style="width: 
+0dc6: 52px;margin-top: -6px;float: right;margin-left: 15px;">.        
+0e06:         <ul>....<li><a href="http://telegram.me/inha_uz"><img sr
+0e46: c="/static/inha/img/logo_te.png" alt="Telegram"  style="width: 3
+0e86: 2px;margin-top: 2px;float: right;margin-left: 15px;"></a></li>. 
+0ec6:                    <li class="soc_icon_fb"><a href="https://www.
+0f06: facebook.com/inha.uz?ref=bookmarks">fb</a></li>.                
+0f46:     <li class="soc_icon_tw"><a href="https://www.youtube.com/cha
+0f86: nnel/UC61W3C4BGMIIzYU6orDzzTw">tw</a>.                    </li>.
+0fc6:                     <li class="soc_icon_gP"><a href="https://ins
+<= Recv SSL data, 5 bytes (0x5)
+0000: .... 
+<= Recv data, 4104 bytes (0x1008)
+0000: 1000
+0006: tagram.com/inha_tashkent/">gP</a></li>.                    <li c
+0046: lass="soc_icon_lkl"><a href="https://www.linkedin.com/pub/inha-u
+0086: niversity-in-tashkent/a6/0/280">gP</a></li>.                    
+00c6: <li class="soc_icon_in"><a href="https://plus.google.com/+InhaUz
+0106: ">in</a></li>.                    <li class="soc_icon_yt"><a hre
+0146: f="https://twitter.com/Inha_Tashkent">yt</a></li>.              
+0186:   </ul>.            </div>.            <div class="orfoBlock">. 
+01c6:                Dear Visitor! If you find any mistakes on the web
+0206: site, <br>.                select it and press Ctrl+Enter in ord
+0246: er to notify the administrator..            </div>.        </div
+0286: >.    </div>.</footer>..</div>....<!-- jQuery (necessary for Boo
+02c6: tstrap's JavaScript plugins) -->.<script src="/static/inha/js/jq
+0306: uery.min.js"></script>.<!-- Include all compiled plugins (below)
+0346: , or include individual files as needed -->.<script src="/static
+0386: /inha/js/bootstrap.min.js"></script>.<script type="text/javascri
+03c6: pt" src="/static/inha/js/jquery-migrate-1.2.1.min.js"></script>.
+0406: <script type="text/javascript" src="/static/inha/js/slick.min.js
+0446: "></script>.<script type="text/javascript" src="/static/inha/js/
+0486: main.js"></script>.<script src="/static/inha/rrssb/js/rrssb.min.
+04c6: js"></script>.<script src="https://apis.google.com/js/platform.j
+0506: s" async defer>.    {.        lang: 'en-GB'.    }.</script>...<!
+0546: -- Include all compiled plugins (below), or include individual f
+0586: iles as needed -->.<script type="text/javascript">.    $(documen
+05c6: t).ready(function () {.        $('.bfade').slick({.            d
+0606: ots: true,.            infinite: true,.            speed: 1700,.
+0646:             fade: true,.            cssEase: 'linear',.         
+0686:    autoplay: true,.            autoplaySpeed: 8888.        });. 
+06c6:    });.</script>..<!-- ... -->.<!-- Add fancyBox main JS -->.<sc
+0706: ript src="/static/inha/fancybox/jquery.fancybox.js"></script>.<!
+0746: -- End Custom -->.<script>.function getCookie(name) {.    var co
+0786: okieValue = null;.    if (document.cookie && document.cookie != 
+07c6: '') {.        var cookies = document.cookie.split(';');.        
+0806: for (var i = 0; i < cookies.length; i++) {.            var cooki
+0846: e = jQuery.trim(cookies[i]);.            // Does this cookie str
+0886: ing begin with the name we want?.            if (cookie.substrin
+08c6: g(0, name.length + 1) == (name + '=')) {.                cookieV
+0906: alue = decodeURIComponent(cookie.substring(name.length + 1));.  
+0946:               break;.            }.        }.    }.    return co
+0986: okieValue;.}.var w = {};.w.minHeight = '45px';.w.maxHeight = '66
+09c6: px';.w.changeToFixed = function () {.    if (w.isFixed == 0 && !
+0a06: w.stop) {.        w.blockTr.addClass("header_menu_fix").css('dis
+0a46: play', 'none');.        w.isFixed = 1;.        w.makeGift.stop(t
+0a86: rue, true).css({.            'height': w.minHeight,.            
+0ac6: 'line-height': w.minHeight.        });.        w.allA.stop(true,
+0b06:  true).css({.            'line-height': w.minHeight.        });.
+0b46:         w.blockTr.fadeIn(1000);.    }.};.w.removeFixed = functio
+0b86: n () {.    if (w.isFixed == 1) {.        w.blockTr.removeClass("
+0bc6: header_menu_fix");.        w.isFixed = 0;.        w.makeGift.sto
+0c06: p(true, true).css({.            'height': w.maxHeight,.         
+0c46:    'line-height': w.maxHeight.        });.        w.allA.stop(tr
+0c86: ue, true).css({.            'line-height': w.maxHeight.        }
+0cc6: );.    }.};..w.setStop = function () {.    if (document.body.cli
+0d06: entWidth < 768) {.        w.stop = true;.    } else {.        w.
+0d46: stop = false;.    }.};..var orfo = {};.orfo.getSelectionText = f
+0d86: unction () {.    var text = "";.    if (window.getSelection) {. 
+0dc6:        text = window.getSelection().toString();.    } else if (d
+0e06: ocument.selection && document.selection.type != "Control") {.   
+0e46:      text = document.selection.createRange().text;.    }.    ret
+0e86: urn text;.};.orfo.getCorrectString = function (selected_text) {.
+0ec6:     var correct = prompt("There is a mistake in the text '" + se
+0f06: lected_text + "'", "Enter the correct option!");.    if (correct
+0f46:  != null && correct.length > 1 && correct != "Enter the correct 
+0f86: option!") {.        orfo.sendCorrectMessage(correct, selected_te
+0fc6: xt);.    }.};..function csrfSafeMethod(method) {.    // these HT
+<= Recv SSL data, 5 bytes (0x5)
+0000: .... 
+<= Recv data, 4104 bytes (0x1008)
+0000: 1000
+0006: TP methods do not require CSRF protection.    return (/^(GET|HEA
+0046: D|OPTIONS|TRACE)$/.test(method));.}..orfo.sendCorrectMessage = f
+0086: unction (correct, selected_text) {...    var csrftoken = getCook
+00c6: ie('csrftoken');.    $.ajaxSetup({.        beforeSend: function 
+0106: (xhr, settings) {.            if (!csrfSafeMethod(settings.type)
+0146: ) {.                xhr.setRequestHeader("X-CSRFToken", csrftoke
+0186: n);.            }.        }.    });..    $.ajax({.        url: "
+01c6: /en/get_correct_message/",.        type: "POST",.        data: "
+0206: correct=" + correct + "&selected_text=" + selected_text.    });.
+0246: };..orfo.init = function () {.    $(document).keydown(function (
+0286: e) {.        if (e.ctrlKey && e.keyCode == 13) {.            var
+02c6:  selected_text = orfo.getSelectionText();.            var select
+0306: ed_text_length = selected_text.length;.            if (selected_
+0346: text_length > 0) {.                if (selected_text_length >= 5
+0386:  && selected_text_length <= 20) {.                    orfo.getCo
+03c6: rrectString(selected_text);.                } else {.           
+0406:          alert('To send an error message highlight a block of te
+0446: xt with the error ranging in size from 5 to 20 characters');.   
+0486:              }.            }.        }.    });.};...var foot = {
+04c6: };.foot.getMaxHeight = function () {.    var max = 0;.    foot.b
+0506: locks.each(function () {.        if ($(this).height() > max) {. 
+0546:            max = $(this).height();.        }.    });.    return 
+0586: max;.};..foot.setHeightBlocks = function () {.    foot.maxHegiht
+05c6:  = foot.getMaxHeight();.    $(window).resize(function () {.     
+0606:    if (document.body.clientWidth < 768) {.            foot.block
+0646: s.css('height', '');.            w.stop = true;.        } else {
+0686: .            foot.blocks.css('height', foot.maxHegiht);.        
+06c6:     w.stop = false;.        }.    });.    if (document.body.clie
+0706: ntWidth > 768) {.        foot.blocks.css('height', foot.maxHegih
+0746: t);.    }.};..$(function () {.    w.blockTr = jQuery('#mainMenu'
+0786: );.    w.makeGift = jQuery('.MakeAGift a');.    w.allA = jQuery(
+07c6: '.navbar-default .navbar-nav>li>a');.    w.isFixed = 0;.    w.st
+0806: artPos = w.blockTr.offset().top;.    w.windowPos = $(this).scrol
+0846: lTop();.    w.placeHolder = jQuery('#header_placeholder');...   
+0886:  if (w.windowPos >= w.startPos) {.        w.changeToFixed();.   
+08c6:  } else {.        w.removeFixed();.    }.    jQuery(document).sc
+0906: roll(function () {.        w.windowPos = $(this).scrollTop();.  
+0946:       if (w.windowPos >= w.startPos) {.            w.changeToFix
+0986: ed();.        } else {.            w.removeFixed();.        }.  
+09c6:   });.    foot.blocks = jQuery('.topFooter > div');.    foot.set
+0a06: HeightBlocks();.    $('.fancyimg').fancybox();.    $(".fancyvide
+0a46: o").fancybox({.        fitToView: false, // to show videos in th
+0a86: eir own size.        content: '<span></span>', // create temp co
+0ac6: ntent.        scrolling: 'no', // don't show scrolling bars in f
+0b06: ancybox.        afterLoad: function () {.            // get dime
+0b46: nsions from data attributes.            var $width = $(this.elem
+0b86: ent).data('width');.            var $height = $(this.element).da
+0bc6: ta('height');.            // replace temp content.            va
+0c06: r con = '<object id="player" classid="clsid:D27CDB6E-AE6D-11cf-9
+0c46: 6B8-444553540000" name="player" width="400" height="315">';.    
+0c86:         con += '<param name="movie" value="' + '/static/inha/flv
+0cc6: _embed/player.swf' + '" />';.            con += '<param name="al
+0d06: lowfullscreen" value="true" />';.            con += '<param name
+0d46: ="allowscriptaccess" value="always" />';.            con += '<pa
+0d86: ram name="flashvars" value="file=' + this.href + '&autoplay=1" /
+0dc6: >';.            con += '<embed type="application/x-shockwave-fla
+0e06: sh"';.            con += '.id="player2"';.            con += '.n
+0e46: ame="player2"';.            con += '.src="' + '/static/inha/flv_
+0e86: embed/player.swf' + '"';.            con += '.width="400"';.    
+0ec6:         con += '.height="315"';.            con += '.allowscript
+0f06: access="always"';.            con += '.allowfullscreen="true"';.
+0f46:             con += '.flashvars="file=' + this.href + '"';.      
+0f86:       con += '/>';.            con += '</object>';.            t
+0fc6: his.content = con;.        }.    });..    jQuery('.dropdown-togg
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv data, 3277 bytes (0xccd)
+0000: cc6
+0005: le').click(function () {.        if (document.body.clientWidth <
+0045:  768) {.            jQuery(this).next('ul').toggle();.          
+0085:   return false;.        }.    });..    var all_toggles = jQuery(
+00c5: '.newsAndEventsBlock').find('a[href*="#"]');.    all_toggles.eac
+0105: h(function () {.        if ($(this).attr('href').length > 3) {. 
+0145:            jQuery($(this).attr('href')).css('display', 'none');.
+0185:         }.    });.    all_toggles.click(function () {.        if
+01c5:  ($(this).attr('href').length > 3) {.            jQuery($(this).
+0205: attr('href')).toggle();..        }..        return false;.    })
+0245: ;.    orfo.init();.});...</script>..<div style="margin-bottom: -
+0285: 9999999px; position: fixed;">.    <!-- START WWW.UZ TOP-RATING -
+02c5: ->.    <SCRIPT language="javascript" type="text/javascript">.   
+0305:      <!--.        top_js = "1.0";.        top_r = "id=33158&r=" 
+0345: + escape(document.referrer) + "&pg=" + escape(window.location.hr
+0385: ef);.        document.cookie = "smart_top=1; path=/";.        to
+03c5: p_r += "&c=" + (document.cookie ? "Y" : "N").        //-->.    <
+0405: /SCRIPT>.    <SCRIPT language="javascript1.1" type="text/javascr
+0445: ipt">.        <!--.        top_js = "1.1";.        top_r += "&j=
+0485: " + (navigator.javaEnabled() ? "Y" : "N").        //-->.    </SC
+04c5: RIPT>.    <SCRIPT language="javascript1.2" type="text/javascript
+0505: ">.        <!--.        top_js = "1.2";.        top_r += "&wh=" 
+0545: + screen.width + 'x' + screen.height + "&px=" +.                
+0585: (((navigator.appName.substring(0, 3) == "Mic")) ? screen.colorDe
+05c5: pth : screen.pixelDepth).        //-->.    </SCRIPT>.    <SCRIPT
+0605:  language="javascript1.3" type="text/javascript">.        <!--. 
+0645:        top_js = "1.3";.        //-->.    </SCRIPT>.    <SCRIPT l
+0685: anguage="JavaScript" type="text/javascript">.        <!--.      
+06c5:   top_rat = "&col=340F6E&t=ffffff&p=BD6F6F";.        top_r += "&
+0705: js=" + top_js + "";.        document.write('<img src="https://cn
+0745: t0.www.uz/counter/collect?' + top_r + top_rat + '" width=0 heigh
+0785: t=0 border=0 />')//-->.    </SCRIPT>.    <NOSCRIPT><IMG height=0
+07c5: .                   src="https://cnt0.www.uz/counter/collect?id=
+0805: 33158&pg=http%3A//uzinfocom.uz&col=340F6E&t=ffffff&p=BD6F6F".   
+0845:                 width=0 border=0/></NOSCRIPT>.    <!-- FINISH WW
+0885: W.UZ TOP-RATING --> ...    <script>.      (function(i,s,o,g,r,a,
+08c5: m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){.      (i[
+0905: r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.create
+0945: Element(o),.      m=s.getElementsByTagName(o)[0];a.async=1;a.src
+0985: =g;m.parentNode.insertBefore(a,m).      })(window,document,'scri
+09c5: pt','//www.google-analytics.com/analytics.js','ga');..      ga('
+0a05: create', 'UA-61992962-1', 'auto');.      ga('send', 'pageview');
+0a45: .    </script>.        <!-- Google Tag Manager -->.    <noscript
+0a85: ><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P9H849".
+0ac5:     height="0" width="0" style="display:none;visibility:hidden">
+0b05: </iframe></noscript>.    <script>(function(w,d,s,l,i){w[l]=w[l]|
+0b45: |[];w[l].push({'gtm.start':.    new Date().getTime(),event:'gtm.
+0b85: js'});var f=d.getElementsByTagName(s)[0],.    j=d.createElement(
+0bc5: s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=.    '//www.g
+0c05: oogletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j
+0c45: ,f);.    })(window,document,'script','dataLayer','GTM-P9H849');<
+0c85: /script>.    <!-- End Google Tag Manager -->.</div>...</body>.</
+0cc5: html>.
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv data, 5 bytes (0x5)
+0000: 0
+0003: 
+== Info: Connection #0 to host inha.uz left intact

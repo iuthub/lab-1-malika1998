@@ -1,0 +1,284 @@
+== Info:   Trying 93.184.216.34...
+== Info: TCP_NODELAY set
+== Info: Connected to example.com (93.184.216.34) port 443 (#0)
+== Info: ALPN, offering h2
+== Info: ALPN, offering http/1.1
+== Info: successfully set certificate verify locations:
+== Info:   CAfile: C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+  CApath: none
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.3 (OUT), TLS handshake, Client hello (1):
+=> Send SSL data, 512 bytes (0x200)
+0000: ........"6z/9.!g..hPB.....|...$`...... .Fn.......HT..QU..Y.*....
+0040: \/Xs9@..>.......,.0.........+./...$.(.k.#.'.g.....9.....3.....=.
+0080: <.5./.....u.........example.com........................3t.......
+00c0: ..h2.http/1.1.........1.....0...................................
+0100: ..............+............-.....3.&.$... .5....,38r6.....*.4...
+0140: .....F...%......................................................
+0180: ................................................................
+01c0: ................................................................
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....X
+== Info: TLSv1.3 (IN), TLS handshake, Server hello (2):
+<= Recv SSL data, 88 bytes (0x58)
+0000: ...T...!.t..a......e......z..^......3. .Fn.......HT..QU..Y.*....
+0040: \/Xs9@.......+.....3....
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.3 (OUT), TLS handshake, Client hello (1):
+=> Send SSL data, 512 bytes (0x200)
+0000: ........"6z/9.!g..hPB.....|...$`...... .Fn.......HT..QU..Y.*....
+0040: \/Xs9@..>.......,.0.........+./...$.(.k.#.'.g.....9.....3.....=.
+0080: <.5./.....u.........example.com........................3t.......
+00c0: ..h2.http/1.1.........1.....0...................................
+0100: ..............+............-.....3.G.E...A.........U6.._...Kz...
+0140: u.B-.......v .!..].%...[..Fe....E....Aq.@.9.....................
+0180: ................................................................
+01c0: ................................................................
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.3 (IN), TLS handshake, Server hello (2):
+<= Recv SSL data, 155 bytes (0x9b)
+0000: ........j.:.F....0[2.\.8._1n.G.......g .Fn.......HT..QU..Y.*....
+0040: \/Xs9@.....O.+.....3.E...A..[.).H%.4O.....q...1..c.Z..n$........
+0080: uz..BUS.........P....<.....
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....$
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+<= Recv SSL data, 19 bytes (0x13)
+0000: .................h2
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.3 (IN), TLS handshake, Certificate (11):
+<= Recv SSL data, 4006 bytes (0xfa6)
+0000: ..........D0..@0..(.........x.H...M.+.k`8.0...*.H........0M1.0..
+0040: .U....US1.0...U....DigiCert Inc1'0%..U....DigiCert SHA2 Secure S
+0080: erver CA0...181128000000Z..201202120000Z0..1.0...U....US1.0...U.
+00c0: ...California1.0...U....Los Angeles1<0:..U...3Internet Corporati
+0100: on for Assigned Names and Numbers1.0...U....Technology1.0...U...
+0140: .www.example.org0.."0...*.H.............0...........t.. r.e..Z]J
+0180: .:.f..)+.......q..B....v1u.'.MPju.{S^'....`:..E.kE3\... ..`..LE.
+01c0: ...>w....e4.".t..B..!...Dtm.....`.q...cA..4{$IF.....H......E....
+0200: ....q.(.X3n..:.jr`..Y.c.zIB{.?......~......P.u... ...ml7.(L.?|.
+0240: ....fkSS.....m..d.........-h..?....!d-.i+.x.we.T..........0...0.
+0280: ..U.#..0.....a..1a./(..F8.,....0...U......f.b.......6.v....m..0.
+02c0: ...U...z0x..www.example.org..example.com..example.edu..example.n
+0300: et..example.org..www.example.com..www.example.edu..www.example.n
+0340: et0...U...........0...U.%..0...+.........+.......0k..U...d0b0/.-
+0380: .+.)http://crl3.digicert.com/ssca-sha2-g6.crl0/.-.+.)http://crl4
+03c0: .digicert.com/ssca-sha2-g6.crl0L..U. .E0C07..`.H...l..0*0(..+...
+0400: ......https://www.digicert.com/CPS0...g.....0|..+........p0n0$..
+0440: +.....0...http://ocsp.digicert.com0F..+.....0..:http://cacerts.d
+0480: igicert.com/DigiCertSHA2SecureServerCA.crt0...U.......0.0....+.
+04c0: ....y......o...k.i.w.......X......gp.<5.......w.........g\1.F...
+0500: ..H0F.!..d..!...H.v.K.F.W'..{.;.JWBl...l.!.....0.d..L|nXSW...EO
+0540: ..F..p...BB.v..u..Y|..C._..n.V.GV6.J.`....^......g\1.......G0E. 
+0580: o.w.....c-....A.@../.f.._s.H.P..!....H.....D%.<...+.|..'{..X...
+05c0: .JN.v.oSv.1.1.....Q..w.......).....7.....g\1.......G0E.!..y.C...
+0600: ..O...z....D;.....}..c).-. MwZ.I.J.h..a... .1....q.[.V.=,r.0...*
+0640: .H.............sp..@A.jC.x.{UH..k.......x...)...i....x........Yz
+0680: q..n.....-..=U.3....5..jhfL.V!.[.H..5!.].u.zF,"'.o.:.......&s.].
+06c0: 5.j.'...tt.7..;..0.....u!....g.0..S.M............X........._....
+0700: ]...]../.X....b{.....irc.e........ Q..?a@.H.k8.....wJ..=6$O....p
+0740: ..'..*.u............0...0..|...........n.u..C.rK...0...*.H......
+0780: ..0a1.0...U....US1.0...U....DigiCert Inc1.0...U....www.digicert.
+07c0: com1 0...U....DigiCert Global Root CA0...130308120000Z..23030812
+0800: 0000Z0M1.0...U....US1.0...U....DigiCert Inc1'0%..U....DigiCert S
+0840: HA2 Secure Server CA0.."0...*.H.............0..........X.M..0..5
+0880: [n<...,\....qC.d%.....M.f..sn..6.d.7...A.......sM.3.....S.+..uH-
+08c0: .V7{.12.......]K.GF.*....y.....j.;......eN....z..\~U1..9..../..j
+0900: ..._.WtS;5....D.........k).D.KX.m.K...s...H..Eu..71....T.;..?9^.
+0940: ..\~...A..EfG..e...).N.......r.0......w..[(W......EX.........Z0.
+0980: .V0...U.......0.......0...U...........04..+........(0&0$..+.....
+09c0: 0...http://ocsp.digicert.com0{..U...t0r07.5.3.1http://crl3.digic
+0a00: ert.com/DigiCertGlobalRootCA.crl07.5.3.1http://crl4.digicert.com
+0a40: /DigiCertGlobalRootCA.crl0=..U. .60402..U. .0*0(..+.........http
+0a80: s://www.digicert.com/CPS0...U........a..1a./(..F8.,....0...U.#..
+0ac0: 0.....P5V.L.f........=.U0...*.H.............#>.K.1B..~B\.D.i.h.]
+0b00: K..!lK.m......S...*e.9O...n\..$&.........MJ..B.x....m.!.S6`Lv..8
+0b40: ..Q......M'd...>q.H..3m..........\L@.....q..G.....7B. ..n.....}.
+0b80: Y....o-...._&.,.~.7...9......4..!h..s..2.8%.U....h...A4.|.P..:..
+0bc0: .......X%..w.-n.R..t..I..;.4(.x.......m..\2......0...0..........
+0c00: .;.V.BF..uj.Y..J0...*.H........0a1.0...U....US1.0...U....DigiCer
+0c40: t Inc1.0...U....www.digicert.com1 0...U....DigiCert Global Root 
+0c80: CA0...061110000000Z..311110000000Z0a1.0...U....US1.0...U....Digi
+0cc0: Cert Inc1.0...U....www.digicert.com1 0...U....DigiCert Global Ro
+0d00: ot CA0.."0...*.H.............0.........;..r.....W.P...w........[
+0d40: .. ....N0.S.C.i.W..."...@..........;qF..f...v'..{...}..H.....z.9
+0d80: .eJ].......(.tzx.Y.hn\#2K.N..Zm.p.w........D.X2.u.....G.'j..3.
+0dc0: I.`.._.:....JL}>.O_lv^.K7...".m....j.....d..[).2......B...A2....
+0e00: .....X?...I(.p.1......L.N...J=^.....'......c0a0...U...........0
+0e40: ...U.......0....0...U........P5V.L.f........=.U0...U.#..0.....P5
+0e80: V.L.f........=.U0...*.H...............7.H.....D.OR......yy..$..K
+0ec0: +..-.......X..m.zt..)....p...L.....p........c...`....[.....S..c.
+0f00: ?...f.bf..nA..-..wJ..X.+Y.@#.-(.E>yT.&...H.7...y`......n.D.8/I..
+0f40: E>*.6S.:P.....WIla!....x<,:.k..........8l..l..d.w%W0..$.....G|..
+0f80: $..0.-...E.P............4_..<.....m...
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.3 (IN), TLS handshake, CERT verify (15):
+<= Recv SSL data, 264 bytes (0x108)
+0000: ........O...........jZ..`#.[]i. ....7.....~=...D......r.....l.T.
+0040: ..F......t....0..2??.=....R.^A7......0.P.N=.."....=H.......?.X..
+0080: .h.My3...g..q=..I..3..G........z.I|6..H>i.j.}i,9a?......v..5...o
+00c0: ...L....8~.....*9.....`...T..............P......o..!.;\.+..R...`
+0100: ;#.~....
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....E
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.3 (IN), TLS handshake, Finished (20):
+<= Recv SSL data, 52 bytes (0x34)
+0000: ...0.)6.........._.g.["n..I.........I..pE.2^B...l.e.
+=> Send SSL data, 5 bytes (0x5)
+0000: ....E
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.3 (OUT), TLS handshake, Finished (20):
+=> Send SSL data, 52 bytes (0x34)
+0000: ...0s....>"..R.......r.Wz...;....q...3...o.%.@h...w>
+== Info: SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384
+== Info: ALPN, server accepted to use h2
+== Info: Server certificate:
+== Info:  subject: C=US; ST=California; L=Los Angeles; O=Internet Corporation for Assigned Names and Numbers; OU=Technology; CN=www.example.org
+== Info:  start date: Nov 28 00:00:00 2018 GMT
+== Info:  expire date: Dec  2 12:00:00 2020 GMT
+== Info:  subjectAltName: host "example.com" matched cert's "example.com"
+== Info:  issuer: C=US; O=DigiCert Inc; CN=DigiCert SHA2 Secure Server CA
+== Info:  SSL certificate verify ok.
+== Info: Using HTTP2, server supports multi-use
+== Info: Connection state changed (HTTP/2 confirmed)
+== Info: Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+=> Send SSL data, 5 bytes (0x5)
+0000: ....)
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+=> Send SSL data, 5 bytes (0x5)
+0000: ....,
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+== Info: Using Stream ID: 1 (easy handle 0x25e9130)
+=> Send SSL data, 5 bytes (0x5)
+0000: ....6
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+=> Send header, 73 bytes (0x49)
+0000: GET / HTTP/2
+000e: Host: example.com
+0021: User-Agent: curl/7.63.0
+003a: Accept: */*
+0047: 
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+<= Recv SSL data, 249 bytes (0xf9)
+0000: .......  V.................9.6`.%..J....z...u......:..Acq.[.J...
+0040: D..5...}......[.:..'...oo2..vw."p..'......o....e.M.O...}DAa....
+0080: z...d.:.....~B..}f.&$UY.....$...).4.............3V...R....`...?+
+00c0: V.S..K..C`.3.a....Y$..,...IH....=..9.$z......=s.9.......
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+<= Recv SSL data, 249 bytes (0xf9)
+0000: ....... ..aK...............9.6`.%..J....dOq..#O.MS..... 1H...Rz.
+0040: ...".......S.,..8.....%......e@..-..3G..=....Qf..j...o......t
+0080: ..>.....|.+.i.;.z..N.`c0...9(..(x/...k...-........V.8p.lK.r..Q)
+00c0: ......._i)..G/....?.I9,..t_.....%..Z.....0.%. %M...vI.H..
+== Info: old SSL session ID is stale, removing
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....8
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+== Info: Connection state changed (MAX_CONCURRENT_STREAMS == 100)!
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv header, 13 bytes (0xd)
+0000: HTTP/2 200 
+<= Recv header, 31 bytes (0x1f)
+0000: cache-control: max-age=604800
+<= Recv header, 40 bytes (0x28)
+0000: content-type: text/html; charset=UTF-8
+<= Recv header, 37 bytes (0x25)
+0000: date: Fri, 08 Feb 2019 09:19:37 GMT
+<= Recv header, 31 bytes (0x1f)
+0000: etag: "1541025663+gzip+ident"
+<= Recv header, 40 bytes (0x28)
+0000: expires: Fri, 15 Feb 2019 09:19:37 GMT
+<= Recv header, 46 bytes (0x2e)
+0000: last-modified: Fri, 09 Aug 2013 23:54:35 GMT
+<= Recv header, 24 bytes (0x18)
+0000: server: ECS (dca/24D1)
+<= Recv header, 23 bytes (0x17)
+0000: vary: Accept-Encoding
+<= Recv header, 14 bytes (0xe)
+0000: x-cache: HIT
+<= Recv header, 22 bytes (0x16)
+0000: content-length: 1270
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv data, 1270 bytes (0x4f6)
+0000: <!doctype html>.<html>.<head>.    <title>Example Domain</title>.
+0040: .    <meta charset="utf-8" />.    <meta http-equiv="Content-type
+0080: " content="text/html; charset=utf-8" />.    <meta name="viewport
+00c0: " content="width=device-width, initial-scale=1" />.    <style ty
+0100: pe="text/css">.    body {.        background-color: #f0f0f2;.   
+0140:      margin: 0;.        padding: 0;.        font-family: "Open S
+0180: ans", "Helvetica Neue", Helvetica, Arial, sans-serif;.        . 
+01c0:    }.    div {.        width: 600px;.        margin: 5em auto;. 
+0200:        padding: 50px;.        background-color: #fff;.        bo
+0240: rder-radius: 1em;.    }.    a:link, a:visited {.        color: #
+0280: 38488f;.        text-decoration: none;.    }.    @media (max-wid
+02c0: th: 700px) {.        body {.            background-color: #fff;.
+0300:         }.        div {.            width: auto;.            mar
+0340: gin: 0 auto;.            border-radius: 0;.            padding: 
+0380: 1em;.        }.    }.    </style>    .</head>..<body>.<div>.    
+03c0: <h1>Example Domain</h1>.    <p>This domain is established to be 
+0400: used for illustrative examples in documents. You may use this.  
+0440:   domain in examples without prior coordination or asking for pe
+0480: rmission.</p>.    <p><a href="http://www.iana.org/domains/exampl
+04c0: e">More information...</a></p>.</div>.</body>.</html>.
+== Info: Connection #0 to host example.com left intact

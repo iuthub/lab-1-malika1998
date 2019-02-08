@@ -1,0 +1,224 @@
+== Info:   Trying 104.24.96.167...
+== Info: TCP_NODELAY set
+== Info: Connected to www.booleanworld.com (104.24.96.167) port 443 (#0)
+== Info: ALPN, offering h2
+== Info: ALPN, offering http/1.1
+== Info: successfully set certificate verify locations:
+== Info:   CAfile: C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+  CApath: none
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.3 (OUT), TLS handshake, Client hello (1):
+=> Send SSL data, 512 bytes (0x200)
+0000: ........U..j.....]..f....o%.<k.}06... {p..J..#.....6..\...a....
+0040: .J...:^.>.......,.0.........+./...$.(.k.#.'.g.....9.....3.....=.
+0080: <.5./.....u.........www.booleanworld.com........................
+00c0: 3t.........h2.http/1.1.........1.....0..........................
+0100: .......................+............-.....3.&.$... X...D......K.
+0140: jA....H.>!B.I...}...............................................
+0180: ................................................................
+01c0: ................................................................
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....z
+== Info: TLSv1.3 (IN), TLS handshake, Server hello (2):
+<= Recv SSL data, 122 bytes (0x7a)
+0000: ...v....N...@N..)..&3.Dv.2.........tNf {p..J..#.....6..\...a....
+0040: .J...:^......3.$... .H.`C.%...l.b...(.n..Qeoz......r.+....
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+<= Recv SSL data, 15 bytes (0xf)
+0000: .............h2
+== Info: TLSv1.3 (IN), TLS handshake, Certificate (11):
+<= Recv SSL data, 4347 bytes (0x10fb)
+0000: ..........m0..i0............+..'....a..~.m0...*.H.=...0..1.0...U
+0040: ....GB1.0...U....Greater Manchester1.0...U....Salford1.0...U....
+0080: COMODO CA Limited1806..U.../COMODO ECC Domain Validation Secure 
+00c0: Server CA 20...190206000000Z..190815235959Z0l1!0...U....Domain C
+0100: ontrol Validated1!0...U....PositiveSSL Multi-Domain1$0"..U....sn
+0140: i200397.cloudflaressl.com0Y0...*.H.=....*.H.=....B.. X*}.,u."..U
+0180: .....s..C...zJ;.......A.$...S..+.L|^.....t....?.M$B....i0..e0...
+01c0: U.#..0...@.ag...qO...,o..+v=.0...U......KTj.....<p.......b;.0...
+0200: U...........0...U.......0.0...U.%..0...+.........+.......0O..U. 
+0240: .H0F0:..+.....1....0+0)..+.........https://secure.comodo.com/CPS
+0280: 0...g.....0V..U...O0M0K.I.G.Ehttp://crl.comodoca4.com/COMODOECCD
+02c0: omainValidationSecureServerCA2.crl0....+........|0z0Q..+.....0..
+0300: Ehttp://crt.comodoca4.com/COMODOECCDomainValidationSecureServerC
+0340: A2.crt0%..+.....0...http://ocsp.comodoca4.com0.....U......0.....
+0380: sni200397.cloudflaressl.com..*.a-k.pw..*.allmovement.ru..*.atlan
+03c0: tis.business..*.bafftaterre.ga..*.barnecessity.com..*.booleanwor
+0400: ld.com..*.bsrimpex.com..*.dittadipulizie.it..*.elbo.in..*.emailf
+0440: ormula.com..*.fireexclusives.top..*.forteskincream.com..*.freshd
+0480: umps.net..*.gazettehop.com..*.giftuniverse.ru..*.inscoopveti.ml.
+04c0: .*.latestmosts.top..*.mantevinlo.gq..*.pietermaritzburg.business
+0500: ..*.ractvakamil.ga..*.sleeklike.com..*.sliparmoires.top..*.snugs
+0540: ofts.top..*.solutionc.net..*.stylefines.top..*.tembisa.business.
+0580: .*.teologov.ru..*.termgentles.top..*.transportcontracts.co.za..*
+05c0: .videoboy8.cf..*.virginiasluxurybags.com..*.zirvekargo.com..a-k.
+0600: pw..allmovement.ru..atlantis.business..bafftaterre.ga..barnecess
+0640: ity.com..booleanworld.com..bsrimpex.com..dittadipulizie.it..elbo
+0680: .in..emailformula.com..fireexclusives.top..forteskincream.com..f
+06c0: reshdumps.net..gazettehop.com..giftuniverse.ru..inscoopveti.ml..
+0700: latestmosts.top..mantevinlo.gq..pietermaritzburg.business..ractv
+0740: akamil.ga..sleeklike.com..sliparmoires.top..snugsofts.top..solut
+0780: ionc.net..stylefines.top..tembisa.business..teologov.ru..termgen
+07c0: tles.top..transportcontracts.co.za..videoboy8.cf..virginiasluxur
+0800: ybags.com..zirvekargo.com0.....+.....y............v.......q...#.
+0840: ..{G8W...R....d6.......h.S.......G0E.!..xR.....8p\jeW..@.q.b.\\.
+0880: ....l... Pwr.?. ....$...D...{np.|..^l.....v.t~..1.3..!..%OBp...^
+08c0: B ..75y..{.V...h.S.......G0E. 8..m...\F}..=(._..k.^..&J.....0.!
+0900: ............49.)..b\8.+t......W..0...*.H.=....I.0F.!...........h
+0940: 6...iL.J..2..O...Qz...!...o.x..6.'..y..0.F.....8..XO.........0..
+0980: .0..%.......[%.i..&Uf.9...T.0...*.H.=...0..1.0...U....GB1.0...U.
+09c0: ...Greater Manchester1.0...U....Salford1.0...U....COMODO CA Limi
+0a00: ted1+0)..U..."COMODO ECC Certification Authority0...140925000000
+0a40: Z..290924235959Z0..1.0...U....GB1.0...U....Greater Manchester1.0
+0a80: ...U....Salford1.0...U....COMODO CA Limited1806..U.../COMODO ECC
+0ac0:  Domain Validation Secure Server CA 20Y0...*.H.=....*.H.=....B..
+0b00: .8..:.i.pY.....0.....y.:%,kA!....>J.3...*C...d...%P.$..I8.%G.H..
+0b40: ...f0..b0...U.#..0...uq..H.....AG...Hw..y0...U......@.ag...qO...
+0b80: ,o..+v=.0...U...........0...U.......0.......0...U.%..0...+......
+0bc0: ...+.......0...U. ..0.0...U. .0...g.....0L..U...E0C0A.?.=.;http:
+0c00: //crl.comodoca.com/COMODOECCCertificationAuthority.crl0r..+.....
+0c40: ...f0d0;..+.....0../http://crt.comodoca.com/COMODOECCAddTrustCA.
+0c80: crt0%..+.....0...http://ocsp.comodoca4.com0...*.H.=....h.0e.1..h
+0cc0: G%..O.V..7..ZP....a.(...2..q....o.z fk....C.Ro.0..|..f....E..J0a
+0d00: .I.o..-....j|...0%Y..p4.4.....R.....0...0..........CR.?........
+0d40: ..DN0...*.H........0o1.0...U....SE1.0...U....AddTrust AB1&0$..U.
+0d80: ...AddTrust External TTP Network1"0 ..U....AddTrust External CA 
+0dc0: Root0...000530104838Z..200530104838Z0..1.0...U....GB1.0...U....G
+0e00: reater Manchester1.0...U....Salford1.0...U....COMODO CA Limited1
+0e40: +0)..U..."COMODO ECC Certification Authority0v0...*.H.=....+..."
+0e80: .b...G{/u.....u.....b..>R...A....$<....=......u...w.*..`K6..#..
+0ec0: .q.J.(P....n?l//.Y[.[.3...=..j,........0..0...U.#..0......z4.&..
+0f00: .&T....$.T.0...U......uq..H.....AG...Hw..y0...U...........0...U.
+0f40: ......0....0...U. ..0.0...U. .0I..U...B0@0>.<.:.8http://crl.trus
+0f80: t-provider.com/AddTrustExternalCARoot.crl0:..+.........0,0*..+..
+0fc0: ...0...http://ocsp.trust-provider.com0...*.H.................@.\
+1000: .K..U6.X.S.=d....8..!;..[.H..C.!lA..-.s.q..!s~.....X....mv..:. .
+1040: -}......2...e......x..;R...t.....mh....$..'H....?p.A.sQ7)...z.'.
+1080: $Q..h....6.........m. .5vsB.........".....Qa..&...uQ..../....?z.
+10c0: ...hy..........E..|.5.!...fu&*..&.f.....A.............uj...
+== Info: TLSv1.3 (IN), TLS handshake, CERT verify (15):
+<= Recv SSL data, 79 bytes (0x4f)
+0000: ...K...G0E.!...b3h.+...jf.$.U......\:.3...$.. ~.[.....Md...|...
+0040: 't.Q...j.D.so6.
+== Info: TLSv1.3 (IN), TLS handshake, Finished (20):
+<= Recv SSL data, 52 bytes (0x34)
+0000: ...0.w.X.5Q4.L{..ts0B...B..Yj....>.y.f.P5...Ha.5.4a.
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+=> Send SSL data, 5 bytes (0x5)
+0000: ....E
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.3 (OUT), TLS handshake, Finished (20):
+=> Send SSL data, 52 bytes (0x34)
+0000: ...0|.&.. ..........&....K#..#....G..;*...}e.O..z...
+== Info: SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384
+== Info: ALPN, server accepted to use h2
+== Info: Server certificate:
+== Info:  subject: OU=Domain Control Validated; OU=PositiveSSL Multi-Domain; CN=sni200397.cloudflaressl.com
+== Info:  start date: Feb  6 00:00:00 2019 GMT
+== Info:  expire date: Aug 15 23:59:59 2019 GMT
+== Info:  subjectAltName: host "www.booleanworld.com" matched cert's "*.booleanworld.com"
+== Info:  issuer: C=GB; ST=Greater Manchester; L=Salford; O=COMODO CA Limited; CN=COMODO ECC Domain Validation Secure Server CA 2
+== Info:  SSL certificate verify ok.
+== Info: Using HTTP2, server supports multi-use
+== Info: Connection state changed (HTTP/2 confirmed)
+== Info: Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+=> Send SSL data, 5 bytes (0x5)
+0000: ....)
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+=> Send SSL data, 5 bytes (0x5)
+0000: ....,
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+== Info: Using Stream ID: 1 (easy handle 0x719130)
+=> Send SSL data, 5 bytes (0x5)
+0000: ....B
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+=> Send header, 83 bytes (0x53)
+0000: HEAD / HTTP/2
+000f: Host: www.booleanworld.com
+002b: User-Agent: curl/7.63.0
+0044: Accept: */*
+0051: 
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+== Info: TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+<= Recv SSL data, 230 bytes (0xe6)
+0000: ........1..Y....Z*..K..$.u...........Hu..h...........Pv..A...@r.
+0040: ...........d...@U..6.;G...X.+o1...=8..C.%&....30j...e....y%..U..
+0080: .Q...9......]...O.s.n....).m:.".i...G.;.0...zb.{........3##.....
+00c0: .](..d.~....0r....K.Ri.w..v..#....::..
+== Info: TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+<= Recv SSL data, 230 bytes (0xe6)
+0000: ........pj#S....Z*..K..$.u......Q.I........jc.6MJ...=.j2.Gf..jJO
+0040: .?......w....O.Q...|....(.1v.Nd..0~..-}s....9.F.h..X.}..........
+0080: ...X..N2.}.C..]....'...M..B. .n,.A..U.y..2.(X....l......Z.Z.|S..
+00c0: .I...A...:B............&.dJB(....::..
+== Info: old SSL session ID is stale, removing
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....B
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+== Info: Connection state changed (MAX_CONCURRENT_STREAMS == 256)!
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 1 bytes (0x1)
+0000: .
+<= Recv header, 13 bytes (0xd)
+0000: HTTP/2 200 
+<= Recv header, 37 bytes (0x25)
+0000: date: Fri, 08 Feb 2019 09:18:42 GMT
+<= Recv header, 40 bytes (0x28)
+0000: content-type: text/html; charset=UTF-8
+<= Recv header, 155 bytes (0x9b)
+0000: set-cookie: __cfduid=d5e577936f01e083e03775cf0561379d21549617522
+0040: ; expires=Sat, 08-Feb-20 09:18:42 GMT; path=/; domain=.booleanwo
+0080: rld.com; HttpOnly; Secure
+<= Recv header, 31 bytes (0x1f)
+0000: vary: Accept-Encoding, Cookie
+<= Recv header, 43 bytes (0x2b)
+0000: cache-control: max-age=3, must-revalidate
+<= Recv header, 46 bytes (0x2e)
+0000: last-modified: Fri, 08 Feb 2019 09:12:46 GMT
+<= Recv header, 29 bytes (0x1d)
+0000: x-frame-options: sameorigin
+<= Recv header, 33 bytes (0x21)
+0000: x-xss-protection: 1; mode=block
+<= Recv header, 73 bytes (0x49)
+0000: strict-transport-security: max-age=15552000; includeSubDomains; 
+0040: preload
+<= Recv header, 33 bytes (0x21)
+0000: x-content-type-options: nosniff
+<= Recv header, 100 bytes (0x64)
+0000: expect-ct: max-age=604800, report-uri="https://report-uri.cloudf
+0040: lare.com/cdn-cgi/beacon/expect-ct"
+<= Recv header, 20 bytes (0x14)
+0000: server: cloudflare
+<= Recv header, 30 bytes (0x1e)
+0000: cf-ray: 4a5d02adcb4bcade-ARN
+<= Recv header, 2 bytes (0x2)
+0000: 
+== Info: Connection #0 to host www.booleanworld.com left intact

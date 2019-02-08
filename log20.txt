@@ -1,0 +1,28 @@
+== Info:   Trying 185.85.13.155...
+== Info: TCP_NODELAY set
+== Info: Connected to gc.kis.v2.scr.kaspersky-labs.com (185.85.13.155) port 80 (#0)
+=> Send header, 328 bytes (0x148)
+0000: GET /3AA4EF75-49BD-8044-88CB-DEB5A3420ADB/main.js HTTP/1.1
+003c: Host: gc.kis.v2.scr.kaspersky-labs.com
+0064: Accept: */*
+0071: Accept-Encoding: deflate, gzip
+0091: Referer: http://example.com/get
+00b2: User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58
+00f2: N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Mo
+0132: bile Safari/537.36
+0146: 
+<= Recv header, 15 bytes (0xf)
+0000: HTTP/1.1 200 
+<= Recv header, 40 bytes (0x28)
+0000: Content-Type: text/html; charset=utf-8
+<= Recv header, 40 bytes (0x28)
+0000: Expires: Mon, 04 Dec 1999 21:29:02 GMT
+<= Recv header, 63 bytes (0x3f)
+0000: Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+<= Recv header, 18 bytes (0x12)
+0000: Pragma: no-cache
+<= Recv header, 19 bytes (0x13)
+0000: Content-Length: 0
+<= Recv header, 2 bytes (0x2)
+0000: 
+== Info: Connection #0 to host gc.kis.v2.scr.kaspersky-labs.com left intact
